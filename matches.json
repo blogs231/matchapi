@@ -1,85 +1,76 @@
 {
-"matches": [
-{
-"match_id": "691ea30204a7c",
-"title": "AUS vs ENG, The Ashes 2025-26",
-"sport": "cricket",
-"teams": {
-"home": {
-"name": "Australia",
-"logo": "https://aimages.willow.tv/teamLogos/australia.png
-"
-},
-"away": {
-"name": "England",
-"logo": "https://aimages.willow.tv/teamLogos/england.png
-"
-}
-},
-"match_info": {
-"start_time": "2025-12-17T05:15",
-"end_time": "2025-12-21T13:00",
-"display_time": "5:15 AM",
-"status": "VS"
-},
-"links": {
-"watch": "https://www.kasintvlivecricket.com/p/eng-vs-aus-match-preview.html
-"
-}
-},
-{
-"match_id": "692db19ab66ef",
-"title": "West Indies tour of New Zealand 2025",
-"sport": "cricket",
-"teams": {
-"home": {
-"name": "New Zealand",
-"logo": "https://aimages.willow.tv/teamLogos/newzealand.png
-"
-},
-"away": {
-"name": "West Indies",
-"logo": "https://aimages.willow.tv/teamLogos/westindies.png
-"
-}
-},
-"match_info": {
-"start_time": "2025-12-10T03:30",
-"end_time": "2025-12-15T01:00",
-"display_time": "3:30 AM",
-"status": "vs"
-},
-"links": {
-"watch": "https://www.kasintvlivecricket.com/p/nepal-vs-vietnam.html
-"
-}
-},
-{
-"match_id": "69381752673b9",
-"title": "IND vs SA, 1st T20",
-"sport": "cricket",
-"teams": {
-"home": {
-"name": "India",
-"logo": "https://aimages.willow.tv/teamLogos/india.png
-"
-},
-"away": {
-"name": "South Africa",
-"logo": "https://aimages.willow.tv/teamLogos/southafrica.png
-"
-}
-},
-"match_info": {
-"start_time": "2025-12-09T19:00",
-"end_time": "2025-12-10T01:00",
-"display_time": "7:00 PM",
-"status": "vs"
-},
-"links": {
-"watch": "https://www.kasintvlivecricket.com/p/ind-vs-sa.html
-"
-}
-}
-]
+    "matches": [
+        {
+            "match_id": "691ea30204a7c",
+            "title": "AUS vs ENG, The Ashes 2025-26",
+            "sport": "cricket",
+            "teams": {
+                "home": {
+                    "name": "Australia",
+                    "logo": "https:\/\/aimages.willow.tv\/teamLogos\/australia.png"
+                },
+                "away": {
+                    "name": "England",
+                    "logo": "https:\/\/aimages.willow.tv\/teamLogos\/england.png"
+                }
+            },
+            "match_info": {
+                "start_time": "2025-12-17T05:15",
+                "end_time": "2025-12-21T13:00",
+                "display_time": "5:15 AM",
+                "status": "VS"
+            },
+            "links": {
+                "watch": "https:\/\/www.kasintvlivecricket.com\/p\/eng-vs-aus-match-preview.html"
+            }
+        },
+        {
+            "match_id": "692db19ab66ef",
+            "title": "West Indies tour of New Zealand 2025",
+            "sport": "cricket",
+            "teams": {
+                "home": {
+                    "name": "New Zealand",
+                    "logo": "https:\/\/aimages.willow.tv\/teamLogos\/newzealand.png"
+                },
+                "away": {
+                    "name": "West Indies",
+                    "logo": "https:\/\/aimages.willow.tv\/teamLogos\/westindies.png"
+                }
+            },
+            "match_info": {
+                "start_time": "2025-12-10T03:30",
+                "end_time": "2025-12-15T01:00",
+                "display_time": "3:30 AM",
+                "status": "vs"
+            },
+            "links": {
+                "watch": "https:\/\/www.kasintvlivecricket.com\/p\/nepal-vs-vietnam.html"
+            }
+        },
+        {
+            "match_id": "69381752673b9",
+            "title": "IND vs SA, 1st T20",
+            "sport": "cricket",
+            "teams": {
+                "home": {
+                    "name": "India",
+                    "logo": "https:\/\/aimages.willow.tv\/teamLogos\/india.png"
+                },
+                "away": {
+                    "name": "South Africa",
+                    "logo": "https:\/\/aimages.willow.tv\/teamLogos\/southafrica.png"
+                }
+            },
+            "match_info": {
+                "start_time": "2025-12-09T19:00",
+                "end_time": "2025-12-10T01:00",
+                "display_time": "7:00 PM",
+                "status": "vs"
+            },
+            "links": {
+                "watch": "https:\/\/www.kasintvlivecricket.com\/p\/ind-vs-sa.html"
+            }
+        }
+    ]
 }

@@ -39,7 +39,7 @@
                 }
             },
             "match_info": {
-                "start_time": "2025-12-10T03:30",
+                "start_time": "2025-12-11T03:30",
                 "end_time": "2025-12-15T01:00",
                 "display_time": "3:30 AM",
                 "status": "vs"
@@ -50,7 +50,7 @@
         },
         {
             "match_id": "69381752673b9",
-            "title": "IND vs SA, 1st T20",
+            "title": "IND vs SA, 2nd T20",
             "sport": "cricket",
             "teams": {
                 "home": {
@@ -63,7 +63,7 @@
                 }
             },
             "match_info": {
-                "start_time": "2025-12-09T19:00",
+                "start_time": "2025-12-11T19:00",
                 "end_time": "2025-12-10T01:00",
                 "display_time": "7:00 PM",
                 "status": "vs"

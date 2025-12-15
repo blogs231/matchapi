@@ -72,31 +72,6 @@
         "watch": "https://www.kasintvlivecricket.com/p/ind-vs-sa.html"
       }
     },
-    
-    {
-      "match_id": "u19-ban-nep-20251215",
-      "title": "Bangladesh U19 vs Nepal U19",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "Bangladesh U19",
-          "logo": "https://aimages.willow.tv/teamLogos/bangladesh.png"
-        },
-        "away": {
-          "name": "Nepal U19",
-          "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2025-12-15T10:45:00+05:45",
-        "end_time": "2025-12-15T19:45:00+05:45",
-        "display_time": "10:45 AM",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/2025/12/nepal-u19-vs-srilanka-u19.html"
-      }
-    },
     {
       "match_id": "u19-afg-nep-20251217",
       "title": "Afghanistan U19 vs Nepal U19",

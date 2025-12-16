@@ -73,6 +73,30 @@
       }
     },
     {
+  "match_id": "ipl-acution",
+  "title": "IPL Auction 2025",
+  "sport": "cricket",
+  },
+  "teams": {
+    "home": {
+      "name": "IPL",
+      "logo": "https://crystalpng.com/wp-content/uploads/2025/09/ipl-logo.png"
+    },
+    "away": {
+      "name": "Auction",
+      "logo": "https://crystalpng.com/wp-content/uploads/2025/09/ipl-logo.png"
+    }
+  },
+  "match_info": {
+    "start_time": "2025-12-16T14:30",
+    "display_time": "2:30 PM IST",
+    "status": "vs"
+  },
+  "links": {
+    "watch": "https://www.kasintvlivecricket.com/p/ipl-auction.html"
+  }
+},
+    {
       "match_id": "u19-afg-nep-20251217",
       "title": "Afghanistan U19 vs Nepal U19",
       "sport": "cricket",

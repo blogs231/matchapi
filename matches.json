@@ -39,9 +39,9 @@
         }
       },
       "match_info": {
-        "start_time": "2025-12-11T03:30",
-        "end_time": "2025-12-15T01:00",
-        "display_time": "3:30 AM",
+        "start_time": "2025-12-18T03:45",
+        "end_time": "2025-12-23T01:00",
+        "display_time": "3:45 AM",
         "status": "vs"
       },
       "links": {
@@ -50,7 +50,7 @@
     },
     {
       "match_id": "69381752673b9",
-      "title": "IND vs SA, 2nd T20",
+      "title": "IND vs SA, 4th T20",
       "sport": "cricket",
       "teams": {
         "home": {
@@ -63,37 +63,13 @@
         }
       },
       "match_info": {
-        "start_time": "2025-12-14T19:00",
-        "end_time": "2025-12-15T01:00",
+        "start_time": "2025-12-17T19:00",
+        "end_time": "2025-12-18T01:00",
         "display_time": "7:00 PM",
         "status": "vs"
       },
       "links": {
         "watch": "https://www.kasintvlivecricket.com/p/ind-vs-sa.html"
-      }
-    },
-    {
-      "match_id": "ipl-auction-2025",
-      "title": "IPL Auction 2025",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "IPL",
-          "logo": "https://crystalpng.com/wp-content/uploads/2025/09/ipl-logo.png"
-        },
-        "away": {
-          "name": "Auction",
-          "logo": "https://crystalpng.com/wp-content/uploads/2025/09/ipl-logo.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2025-12-16T14:45",
-        "end_time": "2025-12-17T01:00",
-        "display_time": "2:45 PM",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/p/ipl-auction.html"
       }
     },
     {

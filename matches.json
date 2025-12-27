@@ -47,7 +47,31 @@
       "links": {
         "watch": "https://www.kasintvlivecricket.com/p/nepal-vs-vietnam.html"
       }
+    },
+    {
+  "match_id": "bpl-2025",
+  "title": "Bangladesh Premier League 2025",
+  "sport": "cricket",
+  "teams": {
+    "home": {
+      "name": "BPL",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/3/30/Bplt202023.png"
+    },
+    "away": {
+      "name": "BPL",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/3/30/Bplt202023.png"
     }
+  },
+  "match_info": {
+    "start_time": "2025-12-27T12:30",
+    "end_time": "2026-01-23T23:59",
+    "display_time": "12:30 PM",
+    "status": "vs"
+  },
+  "links": {
+    "watch": "https://www.kasintvlivecricket.com/2025/12/sandeep-lamichhane-leaves-for.html"
+  }
+}
     
   ]
 }

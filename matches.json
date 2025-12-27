@@ -25,30 +25,6 @@
       }
     },
     {
-      "match_id": "692db19ab66ef",
-      "title": "West Indies tour of New Zealand 2025",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "New Zealand",
-          "logo": "https://aimages.willow.tv/teamLogos/newzealand.png"
-        },
-        "away": {
-          "name": "West Indies",
-          "logo": "https://aimages.willow.tv/teamLogos/westindies.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2025-12-18T03:45",
-        "end_time": "2025-12-23T01:00",
-        "display_time": "3:45 AM",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/p/nepal-vs-vietnam.html"
-      }
-    },
-    {
   "match_id": "bpl-2025",
   "title": "Bangladesh Premier League 2025",
   "sport": "cricket",

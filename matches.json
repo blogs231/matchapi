@@ -222,128 +222,55 @@
     }
   },
 
-
-
-    {
-      "match_id": "football-2026-01",
-      "title": "Lazio vs Napoli, Serie A",
-      "sport": "football",
-      "teams": {
-        "home": {
-          "name": "Lazio",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8543.png"
-        },
-        "away": {
-          "name": "Napoli",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9875.png"
-        }
+{
+    "match_id": "football-afcon-2026-01",
+    "title": "Egypt vs Benin, Africa Cup of Nations (Knockout)",
+    "sport": "football",
+    "teams": {
+      "home": {
+        "name": "Egypt",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10255.png"
       },
-      "match_info": {
-        "start_time": "2026-01-04T20:30:00+09:00",
-        "end_time": "2026-01-04T22:42:00+09:00",
-        "display_time": "5:15 PM",
-        "status": "VS"
-      },
-      "links": {
-        "watch": "https://blogs231.github.io/ads/?url=https://sportsonline.click/channels/hd/hd7.php"
+      "away": {
+        "name": "Benin",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5883.png"
       }
     },
-    {
-      "match_id": "football-2026-02",
-      "title": "Leeds United vs Manchester United, EPL",
-      "sport": "football",
-      "teams": {
-        "home": {
-          "name": "Leeds United",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8463.png"
-        },
-        "away": {
-          "name": "Manchester United",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10260.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-01-04T21:30:00+09:00",
-        "end_time": "2026-01-04T23:42:00+09:00",
-        "display_time": "6:15 PM",
-        "status": "VS"
-      },
-      "links": {
-        "watch": "https://blogs231.github.io/ads/?url=https://sportsonline.click/channels/hd/hd1.php"
-      }
+    "match_info": {
+      "start_time": "2026-01-06T01:00:00+09:00",
+      "end_time": "2026-01-06T03:12:00+09:00",
+      "display_time": "1:00 AM",
+      "status": "VS"
     },
-    {
-      "match_id": "football-2026-03",
-      "title": "Fulham vs Liverpool, EPL",
-      "sport": "football",
-      "teams": {
-        "home": {
-          "name": "Fulham",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9879.png"
-        },
-        "away": {
-          "name": "Liverpool",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8650.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-01-05T00:00:00+09:00",
-        "end_time": "2026-01-05T02:12:00+09:00",
-        "display_time": "8:45 PM",
-        "status": "VS"
-      },
-      "links": {
-        "watch": "https://blogs231.github.io/ads/?url=https://sportsonline.click/channels/pt/eleven1.php"
-      }
-    },
-    {
-      "match_id": "football-2026-04",
-      "title": "Newcastle United vs Crystal Palace, EPL",
-      "sport": "football",
-      "teams": {
-        "home": {
-          "name": "Newcastle United",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png"
-        },
-        "away": {
-          "name": "Crystal Palace",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9826.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-01-05T00:00:00+09:00",
-        "end_time": "2026-01-05T02:12:00+09:00",
-        "display_time": "8:45 PM",
-        "status": "VS"
-      },
-      "links": {
-        "watch": "https://blogs231.github.io/ads/?url=https://sportsonline.click/channels/hd/hd9.php"
-      }
-    },
-    {
-      "match_id": "football-2026-05",
-      "title": "Manchester City vs Chelsea, EPL",
-      "sport": "football",
-      "teams": {
-        "home": {
-          "name": "Manchester City",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8456.png"
-        },
-        "away": {
-          "name": "Chelsea",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8455.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-01-05T02:30:00+09:00",
-        "end_time": "2026-01-05T04:42:00+09:00",
-        "display_time": "11:15 PM",
-        "status": "VS"
-      },
-      "links": {
-        "watch": "https://blogs231.github.io/ads/?url=https://sportsonline.click/channels/hd/hd1.php"
-      }
+    "links": {
+      "watch": "https://blogs231.github.io/ads/?url=https://sportsonline.click/channels/hd/hd11.php"
     }
+  },
+  {
+    "match_id": "football-afcon-2026-02",
+    "title": "Nigeria vs Mozambique, Africa Cup of Nations (Knockout)",
+    "sport": "football",
+    "teams": {
+      "home": {
+        "name": "Nigeria",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6346.png"
+      },
+      "away": {
+        "name": "Mozambique",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5965.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-01-06T04:00:00+09:00",
+      "end_time": "2026-01-06T06:12:00+09:00",
+      "display_time": "4:00 AM",
+      "status": "VS"
+    },
+    "links": {
+      "watch": "https://blogs231.github.io/ads/?url=https://sportsonline.click/channels/pt/sporttv2.php"
+    }
+  }
+    
     
   ]
 }

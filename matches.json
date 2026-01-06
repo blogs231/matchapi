@@ -220,55 +220,6 @@
     "links": {
       "watch": "#"
     }
-  },
-
-{
-    "match_id": "football-afcon-2026-01",
-    "title": "Egypt vs Benin, Africa Cup of Nations (Knockout)",
-    "sport": "football",
-    "teams": {
-      "home": {
-        "name": "Egypt",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10255.png"
-      },
-      "away": {
-        "name": "Benin",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5883.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-01-06T01:00:00+09:00",
-      "end_time": "2026-01-06T03:12:00+09:00",
-      "display_time": "1:00 AM",
-      "status": "VS"
-    },
-    "links": {
-      "watch": "https://blogs231.github.io/ads/?url=https://sportsonline.click/channels/hd/hd11.php"
-    }
-  },
-  {
-    "match_id": "football-afcon-2026-02",
-    "title": "Nigeria vs Mozambique, Africa Cup of Nations (Knockout)",
-    "sport": "football",
-    "teams": {
-      "home": {
-        "name": "Nigeria",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6346.png"
-      },
-      "away": {
-        "name": "Mozambique",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5965.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-01-06T04:00:00+09:00",
-      "end_time": "2026-01-06T06:12:00+09:00",
-      "display_time": "4:00 AM",
-      "status": "VS"
-    },
-    "links": {
-      "watch": "https://blogs231.github.io/ads/?url=https://sportsonline.click/channels/pt/sporttv2.php"
-    }
   }
     
     

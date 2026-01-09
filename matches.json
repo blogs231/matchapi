@@ -1,54 +1,6 @@
 {
   "matches": [
   {
-    "match_id": "slpak_t20_01_2026",
-    "title": "Sri Lanka vs Pakistan, 1st T20I",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Sri Lanka",
-        "logo": "https://aimages.willow.tv/teamLogos/srilanka.png"
-      },
-      "away": {
-        "name": "Pakistan",
-        "logo": "https://aimages.willow.tv/teamLogos/pakistan.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-01-07T13:30",
-      "end_time": "2026-01-07T17:00",
-      "display_time": "7:00 PM",
-      "status": "VS"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com"
-    }
-  },
-  {
-    "match_id": "slpak_t20_02_2026",
-    "title": "Sri Lanka vs Pakistan, 2nd T20I",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Sri Lanka",
-        "logo": "https://aimages.willow.tv/teamLogos/srilanka.png"
-      },
-      "away": {
-        "name": "Pakistan",
-        "logo": "https://aimages.willow.tv/teamLogos/pakistan.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-01-09T13:30",
-      "end_time": "2026-01-09T17:00",
-      "display_time": "7:00 PM",
-      "status": "VS"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com"
-    }
-  },
-  {
     "match_id": "slpak_t20_03_2026",
     "title": "Sri Lanka vs Pakistan, 3rd T20I",
     "sport": "cricket",
@@ -220,7 +172,33 @@
     "links": {
       "watch": "#"
     }
+  },
+{
+  "match_id": "wpl-2026-01",
+  "title": "WPL 2025 vs WPL 2025",
+  "sport": "cricket",
+  "teams": {
+    "home": {
+      "name": "WPL 2025",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/27/Women%27s_Premier_League.svg"
+    },
+    "away": {
+      "name": "WPL 2025",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/27/Women%27s_Premier_League.svg"
+    }
+  },
+  "match_info": {
+    "start_time": "2026-01-09T19:00",
+    "end_time": "2026-02-05T22:30",
+    "display_time": "7:00 PM IST",
+    "status": "VS"
+  },
+  "links": {
+    "watch": "#"
   }
+}
+
+    
     
     
   ]

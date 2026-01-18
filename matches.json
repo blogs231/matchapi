@@ -1,55 +1,5 @@
 {
   "matches": [
- {
-      "match_id": "indnz_odi_01_2026",
-      "title": "India vs New Zealand, 1st ODI",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "India",
-          "logo": "https://aimages.willow.tv/teamLogos/india.png"
-        },
-        "away": {
-          "name": "New Zealand",
-          "logo": "https://aimages.willow.tv/teamLogos/newzealand.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-01-11T08:00:00Z",
-        "end_time": "2026-01-11T15:30:00Z",
-        "display_time": "1:45 PM",
-        "venue": "BCA Stadium, Vadodara",
-        "status": "🆚"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/2026/01/ind-vs-nz-live.html"
-      }
-    },
-    {
-      "match_id": "indnz_odi_02_2026",
-      "title": "India vs New Zealand, 2nd ODI",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "India",
-          "logo": "https://aimages.willow.tv/teamLogos/india.png"
-        },
-        "away": {
-          "name": "New Zealand",
-          "logo": "https://aimages.willow.tv/teamLogos/newzealand.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-01-14T08:00:00Z",
-        "end_time": "2026-01-14T15:30:00Z",
-        "display_time": "1:45 PM",
-        "venue": "Niranjan Shah Stadium, Rajkot",
-        "status": "VS"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/2026/01/ind-vs-nz-live.html"
-      }
-    },
     {
       "match_id": "indnz_odi_03_2026",
       "title": "India vs New Zealand, 3rd ODI",
@@ -69,7 +19,7 @@
         "end_time": "2026-01-18T15:30:00Z",
         "display_time": "1:45 PM",
         "venue": "Holkar Cricket Stadium, Indore",
-        "status": "VS"
+        "status": "🆚"
       },
       "links": {
         "watch": "https://www.kasintvlivecricket.com/2026/01/ind-vs-nz-live.html"

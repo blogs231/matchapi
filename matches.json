@@ -1,55 +1,53 @@
 {
   "matches": [
     {
-      "match_id": "indnz_odi_03_2026",
-      "title": "India vs New Zealand, 3rd ODI",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "India",
-          "logo": "https://aimages.willow.tv/teamLogos/india.png"
-        },
-        "away": {
-          "name": "New Zealand",
-          "logo": "https://aimages.willow.tv/teamLogos/newzealand.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-01-18T08:00:00Z",
-        "end_time": "2026-01-18T15:30:00Z",
-        "display_time": "1:45 PM",
-        "venue": "Holkar Cricket Stadium, Indore",
-        "status": "🆚"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/2026/01/ind-vs-nz-live.html"
-      }
+  "match_id": "afgwi_t20i_03_2026",
+  "title": "Afghanistan vs West Indies, 3rd T20I",
+  "sport": "cricket",
+  "teams": {
+    "home": {
+      "name": "Afghanistan",
+      "logo": "https://aimages.willow.tv/teamLogos/afghanistan.png"
     },
-    
-{
-      "match_id": "691ea30204a7c",
-      "title": "AUS vs ENG, The Ashes 2025-26",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "Australia",
-          "logo": "https://aimages.willow.tv/teamLogos/australia.png"
-        },
-        "away": {
-          "name": "England",
-          "logo": "https://aimages.willow.tv/teamLogos/england.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-01-04T05:15",
-        "end_time": "2026-01-08T13:00",
-        "display_time": "5:15 AM",
-        "status": "VS"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/p/eng-vs-aus-match-preview.html"
-      }
+    "away": {
+      "name": "West Indies",
+      "logo": "https://aimages.willow.tv/teamLogos/westindies.png"
+    }
+  },
+  "match_info": {
+    "start_time": "2026-01-22T10:00:00Z",
+    "end_time": "2026-01-22T13:30:00Z",
+    "display_time": "2:30 PM GMT",
+    "status": "🆚"
+  },
+  "links": {
+    "watch": ""
+  }
+},
+    {
+  "match_id": "afgwi_t20i_01_2026",
+  "title": "Afghanistan vs West Indies, 1st T20I",
+  "sport": "cricket",
+  "teams": {
+    "home": {
+      "name": "Afghanistan",
+      "logo": "https://aimages.willow.tv/teamLogos/afghanistan.png"
     },
+    "away": {
+      "name": "West Indies",
+      "logo": "https://aimages.willow.tv/teamLogos/westindies.png"
+    }
+  },
+  "match_info": {
+    "start_time": "2026-01-19T16:00:00Z",
+    "end_time": "2026-01-19T19:30:00Z",
+    "display_time": "8:00 PM",
+    "status": "🆚"
+  },
+  "links": {
+    "watch": ""
+  }
+},
     {
   "match_id": "bpl-2025",
   "title": "Bangladesh Premier League 2025",

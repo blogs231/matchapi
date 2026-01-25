@@ -76,32 +76,6 @@
     }
   },
   {
-    "match_id": "sleng_odi_02_2026",
-    "title": "Sri Lanka vs England, 2nd ODI",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Sri Lanka",
-        "logo": "https://aimages.willow.tv/teamLogos/srilanka.png"
-      },
-      "away": {
-        "name": "England",
-        "logo": "https://aimages.willow.tv/teamLogos/england.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-01-24T14:30",
-      "end_time": "2026-01-24T22:30",
-      "display_time": "2:30 PM",
-      "venue": "R. Premadasa Stadium, Colombo",
-      "status": "VS",
-      "match_type": "ODI"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/01/england-tour-of-sri-lanka-2026.html"
-    }
-  },
-  {
     "match_id": "sleng_odi_03_2026",
     "title": "Sri Lanka vs England, 3rd ODI",
     "sport": "cricket",
@@ -124,7 +98,7 @@
       "match_type": "ODI"
     },
     "links": {
-      "watch": "https://www.kasintvlivecricket.com"
+      "watch": "https://www.kasintvlivecricket.com/2026/01/england-tour-of-sri-lanka-2026.html"
     }
   },
   {

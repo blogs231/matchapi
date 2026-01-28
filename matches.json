@@ -51,32 +51,6 @@
     }
   },
   {
-    "match_id": "sleng_odi_03_2026",
-    "title": "Sri Lanka vs England, 3rd ODI",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Sri Lanka",
-        "logo": "https://aimages.willow.tv/teamLogos/srilanka.png"
-      },
-      "away": {
-        "name": "England",
-        "logo": "https://aimages.willow.tv/teamLogos/england.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-01-27T14:30",
-      "end_time": "2026-01-27T22:30",
-      "display_time": "2:30 PM",
-      "venue": "R. Premadasa Stadium, Colombo",
-      "status": "VS",
-      "match_type": "ODI"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/01/england-tour-of-sri-lanka-2026.html"
-    }
-  },
-  {
     "match_id": "sleng_t20_01_2026",
     "title": "Sri Lanka vs England, 1st T20I",
     "sport": "cricket",
@@ -152,32 +126,6 @@
     },
     "links": {
       "watch": "https://www.kasintvlivecricket.com"
-    }
-  },
-
-    {
-    "match_id": "sawi_t20i_01_2026",
-    "title": "South Africa vs West Indies, 1st T20I",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "South Africa",
-        "logo": "https://aimages.willow.tv/teamLogos/southafrica.png"
-      },
-      "away": {
-        "name": "West Indies",
-        "logo": "https://aimages.willow.tv/teamLogos/westindies.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-01-27T21:45:00+05:45",
-      "end_time": "2026-01-28T01:45:00+05:45",
-      "display_time": "9:45 PM (NPT)",
-      "venue": "Boland Park, Paarl",
-      "status": "🆚"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/01/south-africa-vs-west-indies-1st-t20i.html"
     }
   },
   {

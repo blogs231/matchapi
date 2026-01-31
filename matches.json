@@ -26,32 +26,6 @@
     }
   },
   {
-    "match_id": "sleng_t20_01_2026",
-    "title": "Sri Lanka vs England, 1st T20I",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Sri Lanka",
-        "logo": "https://aimages.willow.tv/teamLogos/srilanka.png"
-      },
-      "away": {
-        "name": "England",
-        "logo": "https://aimages.willow.tv/teamLogos/england.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-01-30T19:00",
-      "end_time": "2026-01-30T22:30",
-      "display_time": "7:00 PM",
-      "venue": "Pallekele Stadium, Kandy",
-      "status": "VS",
-      "match_type": "T20I"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/01/england-tour-of-sri-lanka-2026.html"
-    }
-  },
-  {
     "match_id": "sleng_t20_02_2026",
     "title": "Sri Lanka vs England, 2nd T20I",
     "sport": "cricket",
@@ -74,7 +48,7 @@
       "match_type": "T20I"
     },
     "links": {
-      "watch": "https://www.kasintvlivecricket.com"
+      "watch": "https://www.kasintvlivecricket.com/2026/01/england-tour-of-sri-lanka-2026.html"
     }
   },
   {

@@ -152,32 +152,7 @@
   }
 },
 
-    
-  {
-    "match_id": "nep_wc2026_warmup_01",
-    "title": "Nepal vs UAE, Warm-up Match",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Nepal",
-        "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
-      },
-      "away": {
-        "name": "UAE",
-        "logo": "https://aimages.willow.tv/teamLogos/uae.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-02-03T17:15:00+05:45",
-      "end_time": "2026-02-03T21:15:00+05:45",
-      "display_time": "5:15 PM (NPT)",
-      "venue": "M.A. Chidambaram Stadium, Chennai",
-      "status": "🆚"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/02/nep-vs-uae-live-6th-t20-t20-wc-warm-up.html"
-    }
-  },
+ 
   {
     "match_id": "nep_wc2026_warmup_02",
     "title": "Nepal vs Canada, Warm-up Match",

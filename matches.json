@@ -1,31 +1,5 @@
 {
   "matches": [
-  {
-    "match_id": "sleng_t20_03_2026",
-    "title": "Sri Lanka vs England, 3rd T20I",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Sri Lanka",
-        "logo": "https://aimages.willow.tv/teamLogos/srilanka.png"
-      },
-      "away": {
-        "name": "England",
-        "logo": "https://aimages.willow.tv/teamLogos/england.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-02-03T19:00",
-      "end_time": "2026-02-03T22:30",
-      "display_time": "7:00 PM",
-      "venue": "Pallekele Stadium, Kandy",
-      "status": "VS",
-      "match_type": "T20I"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/01/england-tour-of-sri-lanka-2026.html"
-    }
-  },
     
       {
     "match_id": "t20wc2026-nep-05",
@@ -127,30 +101,33 @@
       "watch": "#"
     }
   },
-{
-  "match_id": "wpl-2026-01",
-  "title": "WPL 2025 vs WPL 2025",
-  "sport": "cricket",
-  "teams": {
-    "home": {
-      "name": "WPL 2025",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/2/27/Women%27s_Premier_League.svg"
+
+    {
+    "match_id": "t20wc2026-nep-34",
+    "title": "ICC Men's T20 World Cup 2026",
+    "sport": "cricket",
+    "teams": {
+      "home": {
+        "name": "T20 World Cup",
+        "logo": "https://blogs231.github.io/img-api/t20.webp"
+      },
+      "away": {
+        "name": "T20 World Cup",
+        "logo": "https://blogs231.github.io/img-api/t20.webp"
+      }
     },
-    "away": {
-      "name": "WPL 2025",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/2/27/Women%27s_Premier_League.svg"
+    "match_info": {
+      "start_time": "2026-02-07T11:00",
+      "end_time": "2026-03-08T22:30",
+      "display_time": "11:00 AM",
+      "status": "VS"
+    },
+    "links": {
+      "watch": "#"
     }
-  },
-  "match_info": {
-    "start_time": "2026-01-09T19:00",
-    "end_time": "2026-02-05T22:30",
-    "display_time": "7:00 PM IST",
-    "status": "VS"
-  },
-  "links": {
-    "watch": "https://www.kasintvlivecricket.com/2026/01/wpl-live.html"
   }
-}
+
+    
     
   ]
 }

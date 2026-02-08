@@ -1,31 +1,5 @@
 {
   "matches": [
-    
-      {
-    "match_id": "t20wc2026-nep-05",
-    "title": "ENG vs NEP, ICC Men's T20 World Cup 2026",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "England",
-        "logo": "https://aimages.willow.tv/teamLogos/england.png"
-      },
-      "away": {
-        "name": "Nepal",
-        "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-02-08T15:00",
-      "end_time": "2026-02-08T18:30",
-      "display_time": "3:00 PM IST",
-      "status": "VS"
-    },
-    "venue": "Wankhede Stadium, Mumbai, India",
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/02/how-to-watch-t20-world-cup-2026-live-in.html"
-    }
-  },
   {
     "match_id": "t20wc2026-nep-17",
     "title": "NEP vs ITA, ICC Men's T20 World Cup 2026",

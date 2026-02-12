@@ -1,31 +1,6 @@
 {
   "matches": [
     {
-      "match_id": "t20wc2026-nep-17",
-      "title": "NEP vs ITA, ICC Men's T20 World Cup 2026",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "Nepal",
-          "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
-        },
-        "away": {
-          "name": "Italy",
-          "logo": "https://aimages.willow.tv/teamLogos/italy.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-02-12T15:00",
-        "end_time": "2026-02-12T18:30",
-        "display_time": "3:15 PM NPT",
-        "status": "VS"
-      },
-      "venue": "Wankhede Stadium, Mumbai, India",
-      "links": {
-        "watch": "https://kasin-tv.com/t20worldcup2026nepal/"
-      }
-    },
-    {
       "match_id": "t20wc2026-nep-25",
       "title": "WI vs NEP, ICC Men's T20 World Cup 2026",
       "sport": "cricket",

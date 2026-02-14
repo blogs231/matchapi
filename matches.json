@@ -7,11 +7,11 @@
     "sport": "cricket",
     "teams": {
       "home": {
-        "name": "Nepal Women Rising Stars",
+        "name": "Nepal Women",
         "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
       },
       "away": {
-        "name": "UAE Women Rising Stars",
+        "name": "UAE Women",
         "logo": "https://aimages.willow.tv/teamLogos/uae.png"
       }
     },
@@ -19,9 +19,7 @@
       "start_time": "2026-02-15T08:15",
       "end_time": "2026-02-15T11:45",
       "display_time": "8:15 AM",
-      "status": "VS",
-      "match_type": "T20",
-      "series": "Women's Asia Cup Rising Stars 2026"
+      "status": "VS"
     },
     "links": {
       "watch": "https://www.kasintvlivecricket.com"
@@ -33,7 +31,7 @@
     "sport": "cricket",
     "teams": {
       "home": {
-        "name": "Nepal Women Rising Stars",
+        "name": "Nepal Women",
         "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
       },
       "away": {

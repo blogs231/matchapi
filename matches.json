@@ -1,31 +1,6 @@
 {
   "matches": [
-
-     {
-    "match_id": "nepwrs_u23_uae_2026",
-    "title": "Nepal Women Rising Stars vs UAE Women Rising Stars",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Nepal Women",
-        "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
-      },
-      "away": {
-        "name": "UAE Women",
-        "logo": "https://aimages.willow.tv/teamLogos/uae.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-02-15T08:15",
-      "end_time": "2026-02-15T11:45",
-      "display_time": "8:15 AM",
-      "status": "VS"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/02/united-arab-emirates-women-vs-nepal.html"
-    }
-  },
-  {
+ {
     "match_id": "nepwrs_indiaa_2026",
     "title": "Nepal Women Rising Stars vs India A Women",
     "sport": "cricket",
@@ -49,33 +24,6 @@
       "watch": "https://www.kasintvlivecricket.com/2026/02/united-arab-emirates-women-vs-nepal.html"
     }
   },
-
-    
-    {
-      "match_id": "t20wc2026-nep-25",
-      "title": "WI vs NEP, ICC Men's T20 World Cup 2026",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "West Indies",
-          "logo": "https://aimages.willow.tv/teamLogos/westindies.png"
-        },
-        "away": {
-          "name": "Nepal",
-          "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-02-15T11:00",
-        "end_time": "2026-02-15T14:30",
-        "display_time": "11:15 AM NPT",
-        "status": "VS"
-      },
-      "venue": "Wankhede Stadium, Mumbai, India",
-      "links": {
-        "watch": "https://kasin-tv.com/t20worldcup2026nepal/"
-      }
-    },
     {
       "match_id": "t20wc2026-nep-33",
       "title": "SCO vs NEP, ICC Men's T20 World Cup 2026",

@@ -1,29 +1,5 @@
 {
   "matches": [
- {
-    "match_id": "nepwrs_indiaa_2026",
-    "title": "Nepal Women Rising Stars vs India A Women",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Nepal Women",
-        "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
-      },
-      "away": {
-        "name": "India A Women",
-        "logo": "https://aimages.willow.tv/teamLogos/india.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-02-17T08:15",
-      "end_time": "2026-02-17T11:45",
-      "display_time": "8:15 AM",
-      "status": "VS"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/02/united-arab-emirates-women-vs-nepal.html"
-    }
-  },
     {
       "match_id": "t20wc2026-nep-33",
       "title": "SCO vs NEP, ICC Men's T20 World Cup 2026",

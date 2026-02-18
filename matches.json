@@ -1,31 +1,6 @@
 {
   "matches": [
     {
-      "match_id": "t20wc2026-nep-33",
-      "title": "SCO vs NEP, ICC Men's T20 World Cup 2026",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "Scotland",
-          "logo": "https://aimages.willow.tv/teamLogos/scotland.png"
-        },
-        "away": {
-          "name": "Nepal",
-          "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-02-17T19:00",
-        "end_time": "2026-02-17T22:30",
-        "display_time": "7:15 PM NPT",
-        "status": "VS"
-      },
-      "venue": "Wankhede Stadium, Mumbai, India",
-      "links": {
-        "watch": "https://kasin-tv.com/t20worldcup2026nepal/"
-      }
-    },
-    {
       "match_id": "t20wc2026-nep-34",
       "title": "ICC Men's T20 World Cup 2026",
       "sport": "cricket",

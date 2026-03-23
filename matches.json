@@ -1,28 +1,27 @@
 {
   "matches": [
     {
-      "match_id": "t20wc2026-nep-34",
-      "title": "ICC Men's T20 World Cup 2026",
+      "match_id": "ipl2026-01",
+      "title": "Mumbai Indians vs Chennai Super Kings",
       "sport": "cricket",
+      "league": "IPL 2026",
       "teams": {
         "home": {
-          "name": "T20 World Cup",
-          "logo": "https://blogs231.github.io/img-api/t20.webp"
+          "name": "IPL 2026",
+          "logo": "https://etimg.etb2bimg.com/photo/74594723.cms"
         },
         "away": {
-          "name": "T20 World Cup",
-          "logo": "https://blogs231.github.io/img-api/t20.webp"
+          "name": "IPL 2026",
+          "logo": "https://etimg.etb2bimg.com/photo/74594723.cms"
         }
       },
       "match_info": {
-        "start_time": "2026-02-07T11:00",
-        "end_time": "2026-03-08T22:30",
-        "display_time": "11:15 AM NPT",
-        "status": "ONGOING"
+        "start_time": "2026-03-28T19:45",
+        "display_time": "7:45 PM NPT",
+        "status": "VS"
       },
-      "venue": "Multiple Venues, India",
       "links": {
-        "watch": "https://kasin-tv.com/t20worldcup2026nepal/"
+        "watch": "#"
       }
     }
   ]

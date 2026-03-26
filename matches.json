@@ -23,6 +23,30 @@
       "links": {
         "watch": "#"
       }
-    }
+    },
+     {
+      "match_id": "psl2026-01",
+      "title": "psl",
+      "sport": "cricket",
+      "league": "psl",
+      "teams": {
+        "home": {
+          "name": "PSL 2026",
+          "logo": "https://etimg.etb2bimg.com/photo/74594723.cms"
+        },
+        "away": {
+          "name": "PSL 2026",
+          "logo": "https://etimg.etb2bimg.com/photo/74594723.cms"
+        }
+      },
+      "match_info": {
+        "start_time": "2026-03-28T19:45",
+        "display_time": "7:45 PM NPT",
+        "status": "VS"
+      },
+      "links": {
+        "watch": "#"
+      }
+     }
   ]
 }

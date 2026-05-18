@@ -8,11 +8,11 @@
       "teams": {
         "home": {
           "name": "IPL 2026",
-          "logo": "https://etb2bimg.com"
+          "logo": "https://etimg.etb2bimg.com/photo/74594723.cms"
         },
         "away": {
           "name": "IPL 2026",
-          "logo": "https://etb2bimg.com"
+          "logo": "https://etimg.etb2bimg.com/photo/74594723.cms"
         }
       },
       "match_info": {
@@ -33,11 +33,11 @@
       "teams": {
         "home": {
           "name": "Nepal",
-          "logo": "https://example.com"
+          "logo": "https://img.sofascore.com/api/v1/team/187772/image"
         },
         "away": {
           "name": "Scotland",
-          "logo": "https://example.com"
+          "logo": "https://img.sofascore.com/api/v1/team/187576/image"
         }
       },
       "match_info": {
@@ -58,11 +58,11 @@
       "teams": {
         "home": {
           "name": "Nepal",
-          "logo": "https://example.com"
+          "logo": "https://img.sofascore.com/api/v1/team/187772/image"
         },
         "away": {
           "name": "United States",
-          "logo": "https://example.com"
+          "logo": "https://img.sofascore.com/api/v1/team/199276/image"
         }
       },
       "match_info": {

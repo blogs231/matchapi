@@ -24,56 +24,6 @@
       "links": {
         "watch": "https://kasintvlivecricket.com"
       }
-    },
-    {
-      "match_id": "cwcl2-2026-107",
-      "title": "Nepal vs Scotland",
-      "sport": "cricket",
-      "league": "ICC Cricket World Cup League 2",
-      "teams": {
-        "home": {
-          "name": "Nepal",
-          "logo": "https://img.sofascore.com/api/v1/team/187772/image"
-        },
-        "away": {
-          "name": "Scotland",
-          "logo": "https://img.sofascore.com/api/v1/team/187576/image"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-05-18T09:30:00+05:45",
-        "end_time": "2026-05-18T17:30:00+05:45",
-        "display_time": "9:30 AM NST",
-        "status": "LIVE"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/2026/05/cwc-league-2.html"
-      }
-    },
-      {
-      "match_id": "cwcl2-2026-109",
-      "title": "Nepal vs United States",
-      "sport": "cricket",
-      "league": "ICC Cricket World Cup League 2",
-      "teams": {
-        "home": {
-          "name": "Nepal",
-          "logo": "https://img.sofascore.com/api/v1/team/187772/image"
-        },
-        "away": {
-          "name": "United States",
-          "logo": "https://img.sofascore.com/api/v1/team/199276/image"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-05-22T09:30:00+05:45",
-        "end_time": "2026-05-22T17:30:00+05:45",
-        "display_time": "9:30 AM NST",
-        "status": "VS"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/2026/05/cwc-league-2.html"
-      }
     }
   ]
 }

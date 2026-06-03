@@ -1,30 +1,6 @@
 {
   "matches": [
-    {
-      "match_id": "ipl2026-01",
-      "title": "Mumbai Indians vs Chennai Super Kings",
-      "sport": "cricket",
-      "league": "IPL 2026",
-      "teams": {
-        "home": {
-          "name": "IPL 2026",
-          "logo": "https://etimg.etb2bimg.com/photo/74594723.cms"
-        },
-        "away": {
-          "name": "IPL 2026",
-          "logo": "https://etimg.etb2bimg.com/photo/74594723.cms"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-05-08T19:45",
-        "end_time": "2026-05-31T21:15:00",
-        "display_time": "7:45 PM",
-        "status": "VS"
-      },
-      "links": {
-        "watch": "https://www.kasintvlivecricket.com/2026/03/ipl-2026.html"
-      }
-    }
+    
 
     
   ]

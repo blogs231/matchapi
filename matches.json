@@ -15,6 +15,7 @@
     },
     "match_info": {
       "start_time": "2026-02-02T09:30:00+05:30",
+      "end_time": "2026-02-02T16:30:00+05:30",
       "display_time": "9:30 AM",
       "status": "vs"
     },
@@ -38,6 +39,7 @@
     },
     "match_info": {
       "start_time": "2026-02-02T11:00:00+00:00",
+      "end_time": "2026-02-02T18:00:00+00:00",
       "display_time": "11:00 AM (BST)",
       "venue": "Lord's Cricket Ground, London, England",
       "status": "vs"
@@ -47,8 +49,8 @@
     }
   },
   {
-    "match_id": "wisl_odi_02_2026",
-    "title": "West Indies vs Sri Lanka, 3nd ODI",
+    "match_id": "wisl_odi_03_2026",
+    "title": "West Indies vs Sri Lanka, 3rd ODI",
     "sport": "cricket",
     "teams": {
       "home": {
@@ -62,12 +64,13 @@
     },
     "match_info": {
       "start_time": "2026-02-09T19:30:00Z",
+      "end_time": "2026-02-09T23:30:00Z",
       "display_time": "1:15 PM",
       "venue": "Sabina Park, Kingston, Jamaica",
       "status": "vs"
     },
     "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/02/west-indies-vs-sri-lanka-2nd-odi.html"
+      "watch": "https://www.kasintvlivecricket.com/2026/02/west-indies-vs-sri-lanka-3rd-odi.html"
     }
   }
 ]

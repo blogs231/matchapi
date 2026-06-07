@@ -14,9 +14,10 @@
       }
     },
     "match_info": {
-      "start_time": "2026-02-02T09:30:00+05:30",
-      "end_time": "2026-02-02T16:30:00+05:30",
-      "display_time": "9:30 AM",
+      "start_time": "2026-02-02T09:45:00+05:45",
+      "end_time": "2026-02-02T16:45:00+05:45",
+      "display_time": "9:45 AM",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, New Chandigarh, India",
       "status": "vs"
     },
     "links": {
@@ -38,9 +39,9 @@
       }
     },
     "match_info": {
-      "start_time": "2026-02-02T11:00:00+00:00",
-      "end_time": "2026-02-02T18:00:00+00:00",
-      "display_time": "11:00 AM (BST)",
+      "start_time": "2026-02-02T16:45:00+05:45",
+      "end_time": "2026-02-02T23:45:00+05:45",
+      "display_time": "4:45 PM",
       "venue": "Lord's Cricket Ground, London, England",
       "status": "vs"
     },
@@ -63,9 +64,9 @@
       }
     },
     "match_info": {
-      "start_time": "2026-02-09T19:30:00Z",
-      "end_time": "2026-02-09T23:30:00Z",
-      "display_time": "1:15 PM",
+      "start_time": "2026-02-10T01:15:00+05:45",
+      "end_time": "2026-02-10T05:15:00+05:45",
+      "display_time": "1:15 AM",
       "venue": "Sabina Park, Kingston, Jamaica",
       "status": "vs"
     },

@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "match_id": "indafg_test_01_day2",
-      "title": "India vs Afghanistan (One-off Test, Day 2)",
-      "sport": "cricket"
-    },
-    {
-      "match_id": "engnz_test_01_day4",
-      "title": "England vs New Zealand (1st Test, Day 4)",
-      "sport": "cricket"
-    },
-    {
-      "match_id": "wisl_odi_03_2026",
-      "title": "West Indies vs Sri Lanka, 3rd ODI",
-      "sport": "cricket"
-    },
-    {
       "match_id": "asian_games_qualifier_final_2026",
       "title": "Nepal vs Hong Kong, Final",
       "sport": "cricket",

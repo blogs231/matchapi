@@ -1,102 +1,44 @@
-[
-  {
-    "match_id": "indafg_test_01_day2",
-    "title": "India vs Afghanistan (One-off Test, Day 2)",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "India",
-        "logo": "https://aimages.willow.tv/teamLogos/india.png"
+{
+  "matches": [
+    {
+      "match_id": "indafg_test_01_day2",
+      "title": "India vs Afghanistan (One-off Test, Day 2)",
+      "sport": "cricket"
+    },
+    {
+      "match_id": "engnz_test_01_day4",
+      "title": "England vs New Zealand (1st Test, Day 4)",
+      "sport": "cricket"
+    },
+    {
+      "match_id": "wisl_odi_03_2026",
+      "title": "West Indies vs Sri Lanka, 3rd ODI",
+      "sport": "cricket"
+    },
+    {
+      "match_id": "asian_games_qualifier_final_2026",
+      "title": "Nepal vs Hong Kong, Final",
+      "sport": "cricket",
+      "teams": {
+        "home": {
+          "name": "Nepal",
+          "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/319900/319958.png"
+        },
+        "away": {
+          "name": "Hong Kong",
+          "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/383100/383120.png"
+        }
       },
-      "away": {
-        "name": "Afghanistan",
-        "logo": "https://aimages.willow.tv/teamLogos/afghanistan.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-02T09:45:00+05:45",
-      "end_time": "2026-06-10T16:45:00+05:45",
-      "display_time": "9:45 AM",
-      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur, New Chandigarh, India",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/p/live.html"
-    }
-  },
-  {
-    "match_id": "engnz_test_01_day4",
-    "title": "England vs New Zealand (1st Test, Day 4)",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "England",
-        "logo": "https://aimages.willow.tv/teamLogos/england.png"
+      "match_info": {
+        "start_time": "2026-06-08T12:15:00+05:45",
+        "end_time": "2026-06-08T16:15:00+05:45",
+        "display_time": "12:15 PM",
+        "venue": "Singapore National Cricket Ground, Singapore",
+        "status": "vs"
       },
-      "away": {
-        "name": "New Zealand",
-        "logo": "https://aimages.willow.tv/teamLogos/newzealand.png"
+      "links": {
+        "watch": "https://www.youtube.com/live/OwltDoBhWkA"
       }
-    },
-    "match_info": {
-      "start_time": "2026-06-02T16:45:00+05:45",
-      "end_time": "2026-06-08T23:45:00+05:45",
-      "display_time": "4:45 PM",
-      "venue": "Lord's Cricket Ground, London, England",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/2026/05/cwc-league-2.html"
     }
-  },
-  {
-    "match_id": "wisl_odi_03_2026",
-    "title": "West Indies vs Sri Lanka, 3rd ODI",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "West Indies",
-        "logo": "https://aimages.willow.tv/teamLogos/westindies.png"
-      },
-      "away": {
-        "name": "Sri Lanka",
-        "logo": "https://aimages.willow.tv/teamLogos/srilanka.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-10T01:15:00+05:45",
-      "end_time": "2026-06-11T05:15:00+05:45",
-      "display_time": "1:15 AM",
-      "venue": "Sabina Park, Kingston, Jamaica",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://www.kasintvlivecricket.com/p/ipl-auction.html"
-    }
-  },
-  {
-    "match_id": "asian_games_qualifier_final_2026",
-    "title": "Nepal vs Hong Kong, Final",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Nepal",
-        "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/319900/319958.png"
-      },
-      "away": {
-        "name": "Hong Kong",
-        "logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/383100/383120.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-08T12:15:00+05:45",
-      "end_time": "2026-06-08T16:15:00+05:45",
-      "display_time": "12:15 PM",
-      "venue": "Singapore National Cricket Ground, Singapore",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://www.youtube.com/live/OwltDoBhWkA"
-    }
-  }
-]
+  ]
+}

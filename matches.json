@@ -72,8 +72,9 @@
     },
     "links": {
       "watch": "https://www.kasintvlivecricket.com/p/ipl-auction.html"
-    },
-    {
+    }
+  },
+  {
     "match_id": "asian_games_qualifier_final_2026",
     "title": "Nepal vs Hong Kong, Final",
     "sport": "cricket",
@@ -97,7 +98,5 @@
     "links": {
       "watch": "https://www.youtube.com/live/OwltDoBhWkA"
     }
-}
-
   }
 ]

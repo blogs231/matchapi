@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>KasinTV Live Match</title>
+  <title>KaSinTV Live Match</title>
   <meta name="description" content="Watch live cricket and football matches on KasinTV with Smooth, HD, FHD, Android, iPhone and PC live stream links." />
 
   <style>
@@ -454,7 +454,7 @@
 
 <header class="topbar">
   <div class="nav">
-    <div class="brand">Kasin<span>TV</span></div>
+    <div class="brand">KaSin<span>TV</span></div>
     <div class="nav-badge">Cricket | Football</div>
   </div>
 </header>
@@ -494,7 +494,7 @@
 </main>
 
 <footer>
-  © KasinTV Live Sports Streaming
+  © KaSinTV Live Sports Streaming
 </footer>
 
 <script>
@@ -519,134 +519,11 @@ const STREAM_URLS = {
   football: "https://blogs231.github.io/matchapi/football.json"
 };
 
-/*
-  Optional fallback aliases.
-  stream_id already added cha bhane yo map compulsory chaina.
-  But old matches.json support ko lagi rakheko ho.
-*/
-const CUSTOM_STREAM_ID_BY_MATCH_ID = {
-  engwslw_t20wc_2026_01: "slvsengw",
-  canusa_cwcl2_2026_112: "canvsusa",
-  slaafga_trination_2026_03: "slaafga",
-  indafg_2026_01odi: "indvsafg",
-  canbih_fifawc_2026_03: "canbih",
-  usapar_fifawc_2026_04: "usapar"
-};
-
-const FALLBACK_MATCH_INFO = {
-  engvsnz: {
-    title: "England vs New Zealand",
-    stream_id: "engvsnz",
-    sport: "cricket",
-    teams: {
-      home: { name: "England", logo: "" },
-      away: { name: "New Zealand", logo: "" }
-    },
-    match_info: {
-      display_time: "Live / Upcoming",
-      venue: "Live Cricket",
-      status: "vs"
-    }
-  },
-
-  slvsengw: {
-    title: "England Women vs Sri Lanka Women",
-    stream_id: "slvsengw",
-    sport: "cricket",
-    teams: {
-      home: { name: "England Women", logo: "https://aimages.willow.tv/teamLogos/england.png" },
-      away: { name: "Sri Lanka Women", logo: "https://aimages.willow.tv/teamLogos/srilanka.png" }
-    },
-    match_info: {
-      display_time: "Live / Upcoming",
-      venue: "Women Cricket",
-      status: "vs"
-    }
-  },
-
-  canvsusa: {
-    title: "Canada vs United States of America",
-    stream_id: "canvsusa",
-    sport: "cricket",
-    teams: {
-      home: { name: "Canada", logo: "https://aimages.willow.tv/teamLogos/canada.png" },
-      away: { name: "U.S.A.", logo: "https://aimages.willow.tv/teamLogos/usa.png" }
-    },
-    match_info: {
-      display_time: "Live / Upcoming",
-      venue: "Live Cricket",
-      status: "vs"
-    }
-  },
-
-  slaafga: {
-    title: "Sri Lanka A vs Afghanistan A",
-    stream_id: "slaafga",
-    sport: "cricket",
-    teams: {
-      home: { name: "Sri Lanka A", logo: "https://aimages.willow.tv/teamLogos/srilanka.png" },
-      away: { name: "Afghanistan A", logo: "https://aimages.willow.tv/teamLogos/afghanistan.png" }
-    },
-    match_info: {
-      display_time: "Live / Upcoming",
-      venue: "Live Cricket",
-      status: "vs"
-    }
-  },
-
-  indvsafg: {
-    title: "India vs Afghanistan",
-    stream_id: "indvsafg",
-    sport: "cricket",
-    teams: {
-      home: { name: "India", logo: "https://aimages.willow.tv/teamLogos/india.png" },
-      away: { name: "Afghanistan", logo: "https://aimages.willow.tv/teamLogos/afghanistan.png" }
-    },
-    match_info: {
-      display_time: "Live / Upcoming",
-      venue: "Live Cricket",
-      status: "vs"
-    }
-  },
-
-  canbih: {
-    title: "Canada vs Bosnia & Herzegovina",
-    stream_id: "canbih",
-    sport: "football",
-    teams: {
-      home: { name: "Canada", logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/can.png" },
-      away: { name: "Bosnia & Herzegovina", logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bih.png" }
-    },
-    match_info: {
-      display_time: "Live / Upcoming",
-      venue: "Live Football",
-      status: "vs"
-    }
-  },
-
-  usapar: {
-    title: "United States vs Paraguay",
-    stream_id: "usapar",
-    sport: "football",
-    teams: {
-      home: { name: "USA", logo: "https://static.flashscore.com/res/image/data/GpV4Cle5-MPdHoKT3.png" },
-      away: { name: "Paraguay", logo: "https://static.flashscore.com/res/image/data/xlHCGmwS-fXkePq9D.png" }
-    },
-    match_info: {
-      display_time: "Live / Upcoming",
-      venue: "Live Football",
-      status: "vs"
-    }
-  }
-};
-
 const params = new URLSearchParams(window.location.search);
 
 const queryId =
   params.get("id") ||
   params.get("match") ||
-  params.get("yosintv") ||
-  params.get("mid");
 
 const hero = document.getElementById("hero");
 const linksPanel = document.getElementById("linksPanel");
@@ -725,8 +602,7 @@ function extractIdFromWatchUrl(url) {
     return (
       u.searchParams.get("id") ||
       u.searchParams.get("match") ||
-      u.searchParams.get("yosintv") ||
-      u.searchParams.get("mid") ||
+
       ""
     );
   } catch (e) {
@@ -912,7 +788,6 @@ async function findStreamLinks(streamId, preferredSport) {
 function getQualityGroup(name) {
   const n = String(name || "").toLowerCase();
 
-  if (n.includes("telegram")) return "Community";
   if (n.includes("android only")) return "Android Only Links";
   if (n.includes("android link")) return "Android Links";
   if (n.includes("iphone") || n.includes("ios")) return "iPhone Links";
@@ -1010,7 +885,6 @@ function renderLinks(links, match) {
   });
 
   const groupOrder = [
-    "Community",
     "Android Only Links",
     "Android Links",
     "iPhone Links",
@@ -1083,11 +957,6 @@ function renderInfo(match) {
         <span>Venue</span>
         <b>${esc(info.venue || "Not available")}</b>
       </div>
-
-      <div class="info-row">
-        <span>Stream ID</span>
-        <b>${esc(currentStreamId)}</b>
-      </div>
     </div>
   `;
 }
@@ -1107,7 +976,7 @@ function renderSeo(match) {
     </p>
 
     <p>
-      KasinTV provides different stream options because live match traffic can become high
+      KaSinTV provides different stream options because live match traffic can become high
       during important moments. If one link is slow, buffering or not opening, viewers can
       return to this page and try another available backup link.
     </p>

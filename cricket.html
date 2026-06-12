@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>KasinTV Live Match Streaming</title>
+  <meta name="description" content="Watch live cricket and football matches on KasinTV with smooth, HD and FHD streaming links for Android, iPhone and PC users." />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f3f6;
+      color: #111827;
+    }
+
+    header {
+      background: white;
+      text-align: center;
+      padding: 18px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #064292;
+      font-size: 26px;
+      font-weight: 800;
+    }
+
+    header span {
+      background: #064292;
+      color: white;
+      padding: 3px 10px;
+      font-size: 12px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 90px auto 40px;
+      padding: 0 15px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 6px;
+      padding: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+
+    .match-box {
+      border: 1px solid #d5d9e2;
+      border-radius: 8px;
+      padding: 25px;
+      text-align: center;
+      background: #fafbff;
+      margin-bottom: 25px;
+    }
+
+    .teams {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .team {
+      width: 35%;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .vs {
+      font-size: 38px;
+      color: #dc2626;
+      font-weight: 800;
+    }
+
+    .league {
+      margin-top: 18px;
+      background: #e8eefc;
+      color: #064292;
+      padding: 7px;
+      border-radius: 5px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+
+    .info {
+      font-size: 14px;
+      line-height: 1.7;
+      margin-bottom: 25px;
+    }
+
+    .blue {
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    .seo-content {
+      font-size: 14px;
+      line-height: 1.85;
+      color: #1f2937;
+      margin-bottom: 30px;
+    }
+
+    .seo-content h2 {
+      font-size: 22px;
+      color: #0f172a;
+      margin-bottom: 12px;
+    }
+
+    .seo-content h3 {
+      font-size: 17px;
+      color: #064292;
+      margin-top: 22px;
+      margin-bottom: 8px;
+    }
+
+    .seo-content p {
+      margin-bottom: 12px;
+    }
+
+    .countdown {
+      text-align: center;
+      font-weight: bold;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    .bar {
+      height: 18px;
+      background: #e5e7eb;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: #267c2d;
+      color: white;
+      font-weight: bold;
+      padding: 13px;
+      margin: 7px 0;
+      border-radius: 3px;
+      border: 2px solid #0f3d14;
+      font-size: 14px;
+    }
+
+    .btn:hover {
+      background: #1f6b25;
+    }
+
+    .error {
+      text-align: center;
+      color: red;
+      font-weight: bold;
+    }
+
+    .more-card {
+      background: white;
+      border-radius: 6px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      margin-top: 20px;
+    }
+
+    .more-card h2 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+    .more-match {
+      display: block;
+      padding: 12px;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: #111827;
+      background: #fafafa;
+      font-weight: bold;
+    }
+
+    .more-match:hover {
+      background: #eef2ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+    }
+
+    footer a {
+      background: white;
+      padding: 10px 18px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #555;
+    }
+
+    @media(max-width: 600px) {
+      .container {
+        margin-top: 40px;
+      }
+
+      .vs {
+        font-size: 30px;
+      }
+
+      .team {
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>KasinTV</h1>
+  <span>Cricket | Football</span>
+</header>
+
+<div class="container">
+  <div class="card" id="app">Loading match...</div>
+  <div class="more-card">
+    <h2>More Matches</h2>
+    <div id="moreMatches">Loading...</div>
+  </div>
+</div>
+
+<footer>
+  <a href="/">KasinTV Home</a>
+</footer>
+
+<script>
+const API_URL = "https://blogs231.github.io/matchapi/cricket.json";
+
+const matchInfo = {
+  engvsnz: {
+    team1: "England",
+    team2: "New Zealand",
+    short1: "ENG",
+    short2: "NZ",
+    sport: "Cricket",
+    league: "International Cricket Live Streaming",
+    time: "Live / Upcoming"
+  },
+  indvsafg: {
+    team1: "India",
+    team2: "Afghanistan",
+    short1: "IND",
+    short2: "AFG",
+    sport: "Cricket",
+    league: "International Cricket Live Streaming",
+    time: "Live / Upcoming"
+  },
+  slvswi: {
+    team1: "Sri Lanka",
+    team2: "West Indies",
+    short1: "SL",
+    short2: "WI",
+    sport: "Cricket",
+    league: "International Cricket Live Streaming",
+    time: "Live / Upcoming"
+  }
+};
+
+const params = new URLSearchParams(window.location.search);
+const matchId = params.get("id");
+
+const app = document.getElementById("app");
+const moreMatches = document.getElementById("moreMatches");
+
+function buttonTitle(key, team1, team2) {
+  const map = {
+    smooth1: `Android Only 1 - ${team1} vs ${team2}`,
+    smooth2: `Android Only 2 - ${team1} vs ${team2}`,
+    smooth3: `Android Only 3 - ${team1} vs ${team2}`,
+    hd1: `HD Link 1 - ${team1} vs ${team2}`,
+    hd2: `HD Link 2 - ${team1} vs ${team2}`,
+    hd3: `HD Link 3 - ${team1} vs ${team2}`,
+    fhd1: `FHD Link 1 - ${team1} vs ${team2}`,
+    fhd2: `FHD Link 2 - ${team1} vs ${team2}`,
+    fhd3: `FHD Link 3 - ${team1} vs ${team2}`
+  };
+
+  return map[key] || `${key.toUpperCase()} - ${team1} vs ${team2}`;
+}
+
+function seoContent(team1, team2, sport, league) {
+  return `
+    <div class="seo-content">
+      <h2>${team1} vs ${team2} Live Streaming</h2>
+
+      <p>
+        Watch ${team1} vs ${team2} live streaming online on KasinTV with smooth,
+        HD and FHD match links. This page is created for sports fans who want a
+        simple, fast and mobile-friendly way to open the available live match
+        links for ${team1} vs ${team2}. Whether you are using Android, iPhone,
+        laptop, desktop, tablet or Smart TV browser, you can select one of the
+        available buttons below and continue watching the match online.
+      </p>
+
+      <p>
+        KasinTV provides multiple live streaming options so users can switch
+        between links when one source is slow, buffering, overloaded or not
+        opening properly. For many live sports events, traffic can become very
+        high during toss time, kick-off time, innings break, powerplay, final
+        overs or penalty moments. Because of that, having more than one link is
+        useful for a smoother viewing experience.
+      </p>
+
+      <h3>${team1} vs ${team2} Live Match Links</h3>
+
+      <p>
+        The live links below are arranged in different quality options such as
+        Smooth, HD and FHD. Smooth links are useful for users with slower mobile
+        data or unstable internet. HD links are better for normal broadband and
+        Wi-Fi users. FHD links are suitable for viewers who want a clearer
+        picture quality and have a stable internet connection. You can try any
+        link and choose the one that works best on your device.
+      </p>
+
+      <p>
+        If the first link does not work, do not leave the page immediately. Try
+        the second or third link because different servers may work differently
+        depending on your location, browser, network provider and device type.
+        Some links may open faster on Android, while some may perform better on
+        iPhone, PC or Smart TV browsers.
+      </p>
+
+      <h3>How to Watch ${team1} vs ${team2} Live Online</h3>
+
+      <p>
+        To watch ${team1} vs ${team2} live online, scroll down to the live links
+        section and click any available streaming button. After clicking, the
+        link may open in a new tab. Wait a few seconds for the stream page to
+        load completely. If the page shows loading, refresh once or return to
+        this page and try another available option.
+      </p>
+
+      <p>
+        For the best live match experience, use an updated browser such as
+        Chrome, Safari, Edge or Firefox. Keep your internet connection stable and
+        close extra background apps if your device is slow. If you are watching
+        on mobile data, Smooth or HD links may be better. If you are watching on
+        Wi-Fi, HD or FHD links can provide a clearer display.
+      </p>
+
+      <h3>${team1} vs ${team2} ${sport} Coverage</h3>
+
+      <p>
+        This ${team1} vs ${team2} page is focused on live ${sport} coverage,
+        match access and working stream options. Fans looking for ${team1} vs
+        ${team2} live, ${team1} vs ${team2} online match, ${team1} vs ${team2}
+        HD streaming, ${team1} vs ${team2} FHD link and ${league} can use this
+        page as a quick access point.
+      </p>
+
+      <p>
+        Live sports are watched by fans from different countries and devices.
+        Some users prefer low-data links, some prefer high-quality streams, and
+        some only need a backup link when the main stream is not stable. KasinTV
+        keeps the page structure simple so viewers can find the buttons quickly
+        without searching through unnecessary menus.
+      </p>
+
+      <h3>Why Use KasinTV for Live Sports?</h3>
+
+      <p>
+        KasinTV is designed for users who want a clean sports streaming page with
+        direct match information and multiple available link buttons. The page is
+        lightweight, responsive and easy to use on both mobile and desktop
+        screens. The main goal is to make live sports access simple for fans who
+        are searching for active match links.
+      </p>
+
+      <p>
+        On this page, you can find match title, match information, viewing
+        instructions and different link options in one place. Instead of opening
+        many pages, users can use one match page and test the available buttons.
+        This helps save time during important match moments.
+      </p>
+
+      <h3>Streaming Tips for Better Experience</h3>
+
+      <p>
+        If the stream buffers, reduce video quality by choosing a Smooth or HD
+        link instead of FHD. If audio is not working, refresh the stream page or
+        try another browser. If a link is not opening, disable heavy background
+        downloads and check your internet speed. During high-traffic match
+        periods, backup links may perform better than the first link.
+      </p>
+
+      <p>
+        Bookmark this page if you want to return quickly during the match. You
+        can also share this page with other fans who are searching for ${team1}
+        vs ${team2} live streaming links. New match pages can be opened using
+        the match ID in the URL, making the system simple and dynamic.
+      </p>
+    </div>
+  `;
+}
+
+async function loadMatch() {
+  if (!matchId) {
+    app.innerHTML = `<p class="error">Match ID missing.</p>`;
+    return;
+  }
+
+  try {
+    const res = await fetch(API_URL);
+    const data = await res.json();
+
+    const match = data[matchId];
+
+    if (!match) {
+      app.innerHTML = `<p class="error">Match not found.</p>`;
+      return;
+    }
+
+    const info = matchInfo[matchId] || {
+      team1: "Team A",
+      team2: "Team B",
+      short1: "A",
+      short2: "B",
+      sport: "Sports",
+      league: "Live Sports Streaming",
+      time: "Live / Upcoming"
+    };
+
+    document.title = `${info.team1} vs ${info.team2} Live Streaming - KasinTV`;
+    document.querySelector("meta[name='description']").setAttribute(
+      "content",
+      `Watch ${info.team1} vs ${info.team2} live streaming online on KasinTV with smooth, HD and FHD sports match links.`
+    );
+
+    app.innerHTML = `
+      <div class="match-box">
+        <div class="teams">
+          <div class="team">${info.team1}</div>
+          <div class="vs">VS</div>
+          <div class="team">${info.team2}</div>
+        </div>
+        <div class="league">${info.league}</div>
+      </div>
+
+      <div class="info">
+        <p class="blue">Match Time: ${info.time}</p>
+        <p>● Watch ${info.team1} vs ${info.team2} live in smooth, HD and FHD quality.</p>
+        <p>● If one link stops working, freezes or does not open, try another link below.</p>
+      </div>
+
+      ${seoContent(info.team1, info.team2, info.sport, info.league)}
+
+      <div class="countdown">Live Links</div>
+      <div class="bar"></div>
+
+      <div id="links"></div>
+    `;
+
+    const linksBox = document.getElementById("links");
+
+    Object.entries(match).forEach(([key, url]) => {
+      if (!url) return;
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.className = "btn";
+      a.innerText = buttonTitle(key, info.short1, info.short2);
+
+      linksBox.appendChild(a);
+    });
+
+    loadMoreMatches(data);
+
+  } catch (err) {
+    app.innerHTML = `<p class="error">Failed to load match data.</p>`;
+  }
+}
+
+function loadMoreMatches(data) {
+  moreMatches.innerHTML = "";
+
+  Object.keys(data).forEach(id => {
+    if (id === matchId) return;
+
+    const info = matchInfo[id] || {
+      team1: id,
+      team2: "Live Match"
+    };
+
+    const a = document.createElement("a");
+    a.className = "more-match";
+    a.href = `cricket.html?id=${id}`;
+    a.innerText = `${info.team1} vs ${info.team2}`;
+
+    moreMatches.appendChild(a);
+  });
+
+  if (!moreMatches.innerHTML) {
+    moreMatches.innerHTML = "No more matches available.";
+  }
+}
+
+loadMatch();
+</script>
+
+</body>
+</html>

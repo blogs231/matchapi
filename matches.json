@@ -2,6 +2,7 @@
   "matches": [
     {
       "match_id": "engwslw_t20wc_2026_01",
+      "stream_id": "slvsengw",
       "title": "England Women vs Sri Lanka Women (Match 1, Group B)",
       "sport": "cricket",
       "teams": {
@@ -27,6 +28,7 @@
     },
     {
       "match_id": "canusa_cwcl2_2026_112",
+      "stream_id": "canvsusa",
       "title": "Canada vs United States of America (112th Match)",
       "sport": "cricket",
       "teams": {
@@ -47,11 +49,12 @@
         "status": "vs"
       },
       "links": {
-        "watch": "https://www.kasintvlivecricket.com/2026/05/cwc-league-2.html"
+        "watch": "https://blogs231.github.io/matchapi/match.html?id=canvsusa"
       }
     },
     {
       "match_id": "slaafga_trination_2026_03",
+      "stream_id": "slaafga",
       "title": "Sri Lanka A vs Afghanistan A (3rd Match)",
       "sport": "cricket",
       "teams": {
@@ -72,11 +75,12 @@
         "status": "vs"
       },
       "links": {
-        "watch": "/"
+        "watch": "https://blogs231.github.io/matchapi/match.html?id=slaafga"
       }
     },
     {
       "match_id": "indafg_2026_01odi",
+      "stream_id": "indvsafg",
       "title": "India vs Afghanistan (1st ODI)",
       "sport": "cricket",
       "teams": {
@@ -97,11 +101,12 @@
         "status": "vs"
       },
       "links": {
-        "watch": "https://www.kasintvlivecricket.com/p/live.html"
+        "watch": "https://blogs231.github.io/matchapi/match.html?id=indvsafg"
       }
     },
     {
       "match_id": "canbih_fifawc_2026_03",
+      "stream_id": "canbih",
       "title": "Canada vs Bosnia and Herzegovina (Group B)",
       "sport": "football",
       "teams": {
@@ -122,11 +127,12 @@
         "status": "vs"
       },
       "links": {
-        "watch": "/"
+        "watch": "https://blogs231.github.io/matchapi/match.html?id=canbih"
       }
     },
     {
       "match_id": "usapar_fifawc_2026_04",
+      "stream_id": "usapar",
       "title": "United States vs Paraguay (Group D)",
       "sport": "football",
       "teams": {
@@ -147,10 +153,8 @@
         "status": "vs"
       },
       "links": {
-        "watch": "/"
+        "watch": "https://blogs231.github.io/matchapi/match.html?id=usapar"
       }
     }
-
-    
   ]
 }

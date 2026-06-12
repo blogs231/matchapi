@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>KaSinTV Live Match</title>
   <meta name="description" content="Watch live cricket and football matches on KasinTV with Smooth, HD, FHD, Android, iPhone and PC live stream links." />
 
@@ -14,29 +13,34 @@
 
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background:
-        radial-gradient(circle at top left, rgba(37,99,235,.38), transparent 35%),
-        radial-gradient(circle at top right, rgba(124,58,237,.28), transparent 35%),
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.4), transparent 40%),
+        radial-gradient(circle at top right, rgba(124, 58, 237, 0.3), transparent 40%),
+        radial-gradient(circle at bottom left, rgba(139, 92, 246, 0.2), transparent 50%),
         #050816;
       color: #f8fafc;
+      min-height: 100vh;
     }
 
     a {
       text-decoration: none;
+      color: inherit;
     }
 
     .topbar {
-      background: rgba(5, 8, 22, .92);
-      border-bottom: 1px solid rgba(255,255,255,.08);
+      background: rgba(5, 8, 22, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
       padding: 16px;
       position: sticky;
       top: 0;
       z-index: 20;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
 
     .nav {
-      max-width: 920px;
+      max-width: 1000px;
       margin: auto;
       display: flex;
       justify-content: space-between;
@@ -44,67 +48,88 @@
     }
 
     .brand {
-      font-size: 25px;
+      font-size: 26px;
       font-weight: 900;
       color: white;
+      letter-spacing: -0.5px;
     }
 
     .brand span {
-      color: #38bdf8;
+      background: linear-gradient(135deg, #38bdf8, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
 
     .nav-badge {
       font-size: 12px;
       color: #bae6fd;
-      background: rgba(14,165,233,.15);
-      border: 1px solid rgba(125,211,252,.2);
-      padding: 7px 13px;
+      background: rgba(14, 165, 233, 0.15);
+      border: 1px solid rgba(125, 211, 252, 0.3);
+      padding: 8px 14px;
       border-radius: 999px;
       font-weight: 700;
+      backdrop-filter: blur(5px);
     }
 
     .container {
-      max-width: 920px;
-      margin: 35px auto;
+      max-width: 1000px;
+      margin: 40px auto;
       padding: 0 16px;
     }
 
     .hero {
       position: relative;
       overflow: hidden;
-      border-radius: 30px;
-      padding: 28px;
+      border-radius: 32px;
+      padding: 32px;
       background:
-        linear-gradient(135deg, rgba(37,99,235,.98), rgba(124,58,237,.94)),
-        radial-gradient(circle at 90% 0%, rgba(255,255,255,.26), transparent 36%);
-      box-shadow: 0 25px 70px rgba(0,0,0,.35);
-      margin-bottom: 24px;
+        linear-gradient(135deg, rgba(37, 99, 235, 1), rgba(124, 58, 237, 0.95)),
+        radial-gradient(circle at 90% 0%, rgba(255, 255, 255, 0.3), transparent 40%);
+      box-shadow: 0 30px 80px rgba(37, 99, 235, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+      margin-bottom: 28px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      top: -100px;
+      left: -100px;
+      filter: blur(50px);
     }
 
     .hero::after {
       content: "";
       position: absolute;
-      width: 220px;
-      height: 220px;
+      width: 250px;
+      height: 250px;
       border-radius: 50%;
-      background: rgba(255,255,255,.12);
-      top: -85px;
-      right: -65px;
+      background: rgba(255, 255, 255, 0.06);
+      bottom: -80px;
+      right: -80px;
+      filter: blur(50px);
     }
 
     .live-pill {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: #ef4444;
+      background: rgba(239, 68, 68, 0.9);
       color: white;
-      padding: 7px 13px;
+      padding: 9px 16px;
       border-radius: 999px;
       font-size: 12px;
       font-weight: 900;
-      margin-bottom: 18px;
+      margin-bottom: 22px;
       position: relative;
       z-index: 2;
+      letter-spacing: 0.5px;
+      box-shadow: 0 8px 20px rgba(239, 68, 68, 0.3);
     }
 
     .dot {
@@ -112,20 +137,23 @@
       height: 8px;
       background: white;
       border-radius: 50%;
-      animation: blink 1s infinite;
+      animation: blink 1.5s infinite;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
     }
 
     @keyframes blink {
-      50% { opacity: .35; }
+      0%, 100% { opacity: 1; box-shadow: 0 0 8px rgba(255, 255, 255, 0.8); }
+      50% { opacity: 0.3; box-shadow: 0 0 4px rgba(255, 255, 255, 0.2); }
     }
 
     .match-teams {
       display: grid;
       grid-template-columns: 1fr auto 1fr;
       align-items: center;
-      gap: 18px;
+      gap: 24px;
       position: relative;
       z-index: 2;
+      margin: 24px 0;
     }
 
     .team {
@@ -133,91 +161,105 @@
     }
 
     .team-logo {
-      width: 78px;
-      height: 78px;
+      width: 90px;
+      height: 90px;
       object-fit: contain;
-      background: rgba(255,255,255,.14);
-      padding: 10px;
-      border-radius: 24px;
-      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(255, 255, 255, 0.15);
+      padding: 12px;
+      border-radius: 26px;
+      border: 2px solid rgba(255, 255, 255, 0.25);
+      margin: 0 auto 12px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
     }
 
     .logo-text {
-      width: 78px;
-      height: 78px;
-      border-radius: 24px;
-      margin: auto;
+      width: 90px;
+      height: 90px;
+      border-radius: 26px;
+      margin: 0 auto 12px;
       display: grid;
       place-items: center;
-      background: rgba(255,255,255,.14);
-      border: 1px solid rgba(255,255,255,.18);
-      font-size: 20px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 2px solid rgba(255, 255, 255, 0.25);
+      font-size: 32px;
       font-weight: 900;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
     }
 
     .team h2 {
-      margin: 10px 0 0;
-      font-size: 20px;
-      line-height: 1.2;
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.3;
+      font-weight: 800;
     }
 
     .vs {
-      font-size: 38px;
+      font-size: 42px;
       font-weight: 1000;
-      color: #fde68a;
-      text-shadow: 0 3px 18px rgba(0,0,0,.25);
+      background: linear-gradient(180deg, #fde68a, #fcd34d);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: none;
+      letter-spacing: 2px;
     }
 
     .league {
-      margin-top: 20px;
+      margin-top: 24px;
       position: relative;
       z-index: 2;
-      background: rgba(255,255,255,.13);
-      border: 1px solid rgba(255,255,255,.18);
-      padding: 13px;
-      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 16px;
+      border-radius: 20px;
       color: #e0f2fe;
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 800;
       text-align: center;
+      backdrop-filter: blur(10px);
     }
 
     .meta-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
-      margin-top: 16px;
+      gap: 14px;
+      margin-top: 20px;
       position: relative;
       z-index: 2;
     }
 
     .meta {
-      background: rgba(255,255,255,.12);
-      border: 1px solid rgba(255,255,255,.17);
-      border-radius: 16px;
-      padding: 13px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 18px;
+      padding: 15px;
+      backdrop-filter: blur(10px);
+      text-align: center;
     }
 
     .meta small {
       display: block;
       color: #bfdbfe;
       font-size: 11px;
-      margin-bottom: 5px;
+      margin-bottom: 6px;
       text-transform: uppercase;
-      letter-spacing: .5px;
+      letter-spacing: 0.6px;
+      font-weight: 700;
     }
 
     .meta b {
-      font-size: 14px;
+      font-size: 15px;
+      display: block;
     }
 
     .panel {
-      background: rgba(15,23,42,.88);
-      border: 1px solid rgba(255,255,255,.08);
-      border-radius: 26px;
-      padding: 24px;
-      box-shadow: 0 18px 55px rgba(0,0,0,.25);
-      margin-bottom: 22px;
+      background: rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      margin-bottom: 24px;
     }
 
     .section-title {
@@ -225,36 +267,46 @@
       justify-content: space-between;
       align-items: center;
       gap: 14px;
-      margin-bottom: 14px;
+      margin-bottom: 18px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .section-title h2 {
       margin: 0;
-      font-size: 24px;
+      font-size: 26px;
+      font-weight: 800;
     }
 
     .section-title span {
       font-size: 12px;
       color: #93c5fd;
-      background: rgba(37,99,235,.14);
-      padding: 6px 10px;
+      background: rgba(37, 99, 235, 0.15);
+      padding: 7px 12px;
       border-radius: 999px;
+      font-weight: 700;
     }
 
     .note {
       color: #cbd5e1;
-      line-height: 1.75;
+      line-height: 1.8;
       font-size: 15px;
-      margin-bottom: 22px;
+      margin-bottom: 24px;
+      padding: 14px 16px;
+      background: rgba(37, 99, 235, 0.08);
+      border-left: 3px solid #2563eb;
+      border-radius: 8px;
     }
 
     .group-name {
       color: #7dd3fc;
       font-size: 13px;
       text-transform: uppercase;
-      letter-spacing: .7px;
+      letter-spacing: 0.8px;
       font-weight: 900;
-      margin: 20px 0 9px;
+      margin: 24px 0 12px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .stream-btn {
@@ -263,24 +315,48 @@
       align-items: center;
       gap: 12px;
       color: white;
-      padding: 17px 18px;
-      border-radius: 18px;
+      padding: 18px 20px;
+      border-radius: 20px;
       margin: 10px 0;
       font-size: 15px;
       font-weight: 900;
       background: linear-gradient(90deg, #2563eb, #4f46e5);
-      border: 1px solid rgba(255,255,255,.12);
-      transition: .2s;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stream-btn::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.5s ease;
+    }
+
+    .stream-btn:hover::before {
+      left: 100%;
     }
 
     .stream-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 12px 30px rgba(37,99,235,.34);
+      transform: translateY(-3px);
+      box-shadow: 0 15px 40px rgba(37, 99, 235, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+      background: linear-gradient(90deg, #3b82f6, #6366f1);
+    }
+
+    .stream-btn:active {
+      transform: translateY(-1px);
     }
 
     .stream-btn small {
       color: #dbeafe;
       font-size: 12px;
+      font-weight: 700;
     }
 
     .seo {
@@ -291,48 +367,62 @@
 
     .seo h2 {
       color: white;
-      font-size: 29px;
-      margin: 0 0 12px;
+      font-size: 32px;
+      margin: 0 0 14px;
+      font-weight: 800;
     }
 
     .seo h3 {
       color: white;
-      font-size: 21px;
-      margin-top: 28px;
-      margin-bottom: 8px;
+      font-size: 22px;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-weight: 800;
+    }
+
+    .seo p {
+      margin-bottom: 16px;
     }
 
     .info-table {
       display: grid;
-      gap: 10px;
-      margin-top: 16px;
+      gap: 12px;
+      margin-top: 18px;
     }
 
     .info-row {
       display: flex;
       justify-content: space-between;
       gap: 16px;
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.08);
-      padding: 13px 14px;
-      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 16px;
+      border-radius: 16px;
+      transition: all 0.3s ease;
+    }
+
+    .info-row:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.12);
     }
 
     .info-row span {
       color: #94a3b8;
       font-size: 13px;
+      font-weight: 600;
     }
 
     .info-row b {
       text-align: right;
       color: white;
-      font-size: 13px;
+      font-size: 14px;
+      font-weight: 700;
     }
 
     .more-list {
       display: grid;
-      gap: 10px;
-      margin-top: 14px;
+      gap: 12px;
+      margin-top: 16px;
     }
 
     .more-item {
@@ -340,92 +430,143 @@
       justify-content: space-between;
       align-items: center;
       gap: 12px;
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       color: white;
-      border-radius: 16px;
-      padding: 15px;
+      border-radius: 18px;
+      padding: 16px;
       font-weight: 800;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .more-item:hover {
+      background: rgba(37, 99, 235, 0.12);
+      border-color: rgba(37, 99, 235, 0.3);
+      transform: translateX(4px);
     }
 
     .more-item small {
       color: #93c5fd;
       font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+
+    .faq {
+      padding: 0;
+    }
+
+    .faq .section-title {
+      padding: 0 28px 12px;
+      margin-bottom: 0;
     }
 
     .faq details {
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 16px;
-      padding: 15px;
-      margin: 10px 0;
+      padding: 18px;
+      margin: 12px 28px;
+      transition: all 0.3s ease;
+    }
+
+    .faq details:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.12);
     }
 
     .faq summary {
       cursor: pointer;
       font-weight: 900;
       color: white;
+      font-size: 15px;
+      user-select: none;
+    }
+
+    .faq summary:hover {
+      color: #38bdf8;
     }
 
     .faq p {
       color: #cbd5e1;
-      line-height: 1.75;
-      margin-bottom: 0;
+      line-height: 1.8;
+      margin: 12px 0 0;
+      font-size: 14px;
     }
 
     .error {
-      background: rgba(239,68,68,.15);
-      border: 1px solid rgba(239,68,68,.35);
-      padding: 18px;
+      background: rgba(239, 68, 68, 0.12);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      padding: 20px;
       border-radius: 18px;
-      color: #fecaca;
+      color: #fca5a5;
       text-align: center;
       font-weight: 900;
+      font-size: 15px;
+    }
+
+    .loading {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(255, 255, 255, 0.2);
+      border-top-color: #38bdf8;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
     }
 
     footer {
       text-align: center;
-      padding: 30px;
-      color: #94a3b8;
+      padding: 40px 30px;
+      color: #64748b;
       font-size: 13px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      margin-top: 40px;
     }
 
-    @media(max-width: 700px) {
+    @media(max-width: 768px) {
       .container {
-        margin-top: 22px;
+        margin-top: 24px;
       }
 
       .hero {
-        padding: 22px;
+        padding: 24px;
         border-radius: 24px;
       }
 
       .match-teams {
-        gap: 10px;
+        gap: 14px;
       }
 
       .team-logo,
       .logo-text {
-        width: 58px;
-        height: 58px;
+        width: 70px;
+        height: 70px;
         border-radius: 18px;
-        font-size: 16px;
+        font-size: 24px;
       }
 
       .team h2 {
-        font-size: 15px;
+        font-size: 14px;
       }
 
       .vs {
-        font-size: 28px;
+        font-size: 32px;
       }
 
       .meta-grid {
         grid-template-columns: 1fr;
+        gap: 10px;
       }
 
       .section-title {
         display: block;
+        margin-bottom: 14px;
       }
 
       .section-title span {
@@ -434,17 +575,75 @@
       }
 
       .panel {
-        padding: 18px;
+        padding: 20px;
+        border-radius: 20px;
+      }
+
+      .section-title h2 {
+        font-size: 22px;
       }
 
       .info-row {
         display: block;
+        padding: 12px;
       }
 
       .info-row b {
         display: block;
         text-align: left;
-        margin-top: 5px;
+        margin-top: 6px;
+      }
+
+      .stream-btn {
+        padding: 16px 18px;
+        font-size: 14px;
+      }
+
+      .seo h2 {
+        font-size: 26px;
+      }
+
+      .seo h3 {
+        font-size: 18px;
+      }
+
+      footer {
+        padding: 30px 20px;
+      }
+    }
+
+    @media(max-width: 480px) {
+      .topbar {
+        padding: 12px;
+      }
+
+      .brand {
+        font-size: 22px;
+      }
+
+      .nav-badge {
+        font-size: 10px;
+        padding: 6px 10px;
+      }
+
+      .hero {
+        padding: 18px;
+        margin-bottom: 20px;
+      }
+
+      .panel {
+        padding: 16px;
+        margin-bottom: 18px;
+      }
+
+      .faq details {
+        margin: 10px 0;
+        padding: 14px;
+      }
+
+      .faq .section-title {
+        padding: 0 0 10px;
+        margin: 0 0 14px;
       }
     }
   </style>
@@ -455,7 +654,7 @@
 <header class="topbar">
   <div class="nav">
     <div class="brand">KaSin<span>TV</span></div>
-    <div class="nav-badge">Cricket | Football</div>
+    <div class="nav-badge">🎥 Cricket | Football ⚽</div>
   </div>
 </header>
 
@@ -463,15 +662,12 @@
 
   <section class="hero" id="hero">
     <div class="live-pill"><span class="dot"></span> LOADING</div>
-
     <div class="match-teams">
       <div class="team">
         <div class="logo-text">A</div>
         <h2>Team A</h2>
       </div>
-
       <div class="vs">VS</div>
-
       <div class="team">
         <div class="logo-text">B</div>
         <h2>Team B</h2>
@@ -480,7 +676,7 @@
   </section>
 
   <section class="panel" id="linksPanel">
-    Loading links...
+    <div class="loading"></div> Loading stream links...
   </section>
 
   <section class="panel" id="infoPanel"></section>
@@ -494,24 +690,11 @@
 </main>
 
 <footer>
-  © KaSinTV Live Sports Streaming
+  © 2024 KaSinTV Live Sports Streaming • Cricket & Football Live
 </footer>
 
 <script>
-/*
-  Required JSON URLs:
-  1) matches.json  -> match details, logos, time, venue
-  2) cricket.json  -> cricket stream links
-  3) football.json -> football stream links
-
-  Main rule:
-  matches.json ko "stream_id" must match cricket.json / football.json ko key.
-
-  Example:
-  matches.json:  "stream_id": "slvsengw"
-  cricket.json:  "slvsengw": { "smooth1": "...", "hd1": "..." }
-*/
-
+// ===== CONFIGURATION =====
 const MATCHES_URL = "https://blogs231.github.io/matchapi/matches.json";
 
 const STREAM_URLS = {
@@ -519,11 +702,19 @@ const STREAM_URLS = {
   football: "https://blogs231.github.io/matchapi/football.json"
 };
 
-const params = new URLSearchParams(window.location.search);
+// Fallback stream IDs mapping (if not found in matches.json)
+const CUSTOM_STREAM_ID_BY_MATCH_ID = {
+  // Add custom mappings here if needed
+};
 
-const queryId =
-  params.get("id") ||
-  params.get("match") ||
+// Fallback match info when match not found
+const FALLBACK_MATCH_INFO = {
+  // Add fallback match info here if needed
+};
+
+// ===== DOM ELEMENTS =====
+const params = new URLSearchParams(window.location.search);
+const queryId = params.get("id") || params.get("match") || "";
 
 const hero = document.getElementById("hero");
 const linksPanel = document.getElementById("linksPanel");
@@ -532,12 +723,14 @@ const seoPanel = document.getElementById("seoPanel");
 const morePanel = document.getElementById("morePanel");
 const faqPanel = document.getElementById("faqPanel");
 
+// ===== STATE =====
 let allMatches = [];
 let currentMatch = null;
 let currentStreamId = "";
 let currentSport = "cricket";
 let streamCache = {};
 
+// ===== UTILITY FUNCTIONS =====
 function esc(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -598,11 +791,9 @@ function extractIdFromWatchUrl(url) {
 
   try {
     const u = new URL(url, window.location.href);
-
     return (
       u.searchParams.get("id") ||
       u.searchParams.get("match") ||
-
       ""
     );
   } catch (e) {
@@ -664,6 +855,7 @@ function formatDateTime(match) {
   });
 }
 
+// ===== API FUNCTIONS =====
 async function fetchJson(url) {
   const res = await fetch(url, { cache: "no-store" });
 
@@ -675,8 +867,13 @@ async function fetchJson(url) {
 }
 
 async function loadMatches() {
-  const data = await fetchJson(MATCHES_URL);
-  allMatches = Array.isArray(data.matches) ? data.matches : [];
+  try {
+    const data = await fetchJson(MATCHES_URL);
+    allMatches = Array.isArray(data.matches) ? data.matches : [];
+  } catch (error) {
+    console.error("Failed to load matches:", error);
+    allMatches = [];
+  }
 }
 
 async function loadStreamJson(sport) {
@@ -684,8 +881,13 @@ async function loadStreamJson(sport) {
     return streamCache[sport];
   }
 
-  streamCache[sport] = await fetchJson(STREAM_URLS[sport]);
-  return streamCache[sport];
+  try {
+    streamCache[sport] = await fetchJson(STREAM_URLS[sport]);
+    return streamCache[sport];
+  } catch (error) {
+    console.error("Failed to load stream data for sport:", sport, error);
+    return {};
+  }
 }
 
 function findMatch(id) {
@@ -710,14 +912,14 @@ function makeButtonName(key, match) {
   const number = String(key).replace(/\D/g, "");
   const lower = String(key).toLowerCase();
 
-  if (lower.startsWith("android")) return `Android Link ${number || ""} - ${homeShort} vs ${awayShort}`;
-  if (lower.startsWith("iphone") || lower.startsWith("ios")) return `iPhone Link ${number || ""} - ${homeShort} vs ${awayShort}`;
-  if (lower.startsWith("pc")) return `PC / Android Link ${number || ""} - ${homeShort} vs ${awayShort}`;
-  if (lower.startsWith("smooth")) return `Smooth Link ${number || ""} - ${homeShort} vs ${awayShort}`;
-  if (lower.startsWith("fhd")) return `FHD Link ${number || ""} - ${homeShort} vs ${awayShort}`;
-  if (lower.startsWith("hd")) return `HD Link ${number || ""} - ${homeShort} vs ${awayShort}`;
+  if (lower.startsWith("android")) return `🔗 Android ${number || ""}`;
+  if (lower.startsWith("iphone") || lower.startsWith("ios")) return `📱 iPhone ${number || ""}`;
+  if (lower.startsWith("pc")) return `💻 PC ${number || ""}`;
+  if (lower.startsWith("smooth")) return `📶 Smooth ${number || ""}`;
+  if (lower.startsWith("fhd")) return `4K FHD ${number || ""}`;
+  if (lower.startsWith("hd")) return `🎬 HD ${number || ""}`;
 
-  return `Watch Link ${number || ""} - ${homeShort} vs ${awayShort}`;
+  return `▶️ Link ${number || ""}`;
 }
 
 function normalizeLinksFromBlock(block, match) {
@@ -769,17 +971,15 @@ async function findStreamLinks(streamId, preferredSport) {
         }
       }
 
-      /*
-        Optional support:
-        If stream JSON itself is { "events": [...] } instead of keyed by stream_id.
-      */
       if (data && Array.isArray(data.events)) {
         const links = normalizeLinksFromBlock(data, currentMatch);
         if (links.length) {
           return { sport, links };
         }
       }
-    } catch (e) {}
+    } catch (e) {
+      console.error("Error loading stream for sport:", sport, e);
+    }
   }
 
   return { sport: preferredSport || "cricket", links: [] };
@@ -788,17 +988,18 @@ async function findStreamLinks(streamId, preferredSport) {
 function getQualityGroup(name) {
   const n = String(name || "").toLowerCase();
 
-  if (n.includes("android only")) return "Android Only Links";
-  if (n.includes("android link")) return "Android Links";
+  if (n.includes("android only")) return "Android Only";
+  if (n.includes("android")) return "Android Links";
   if (n.includes("iphone") || n.includes("ios")) return "iPhone Links";
-  if (n.includes("pc")) return "PC / Android Links";
-  if (n.includes("smooth")) return "Smooth Links";
-  if (n.includes("fhd")) return "FHD Links";
+  if (n.includes("pc")) return "PC / Desktop Links";
+  if (n.includes("smooth")) return "Smooth Stream";
+  if (n.includes("fhd")) return "FHD / 4K";
   if (n.includes("hd")) return "HD Links";
 
-  return "Other Links";
+  return "Available Links";
 }
 
+// ===== RENDER FUNCTIONS =====
 function renderHero(match) {
   const home = match.teams && match.teams.home ? match.teams.home : { name: "Team A", logo: "" };
   const away = match.teams && match.teams.away ? match.teams.away : { name: "Team B", logo: "" };
@@ -812,11 +1013,11 @@ function renderHero(match) {
   const time = formatDateTime(match);
   const sport = match.sport || currentSport || "sports";
 
-  document.title = `${home.name} vs ${away.name} Live Streaming - KasinTV`;
+  document.title = `${home.name} vs ${away.name} Live - KasinTV`;
 
   document.querySelector("meta[name='description']").setAttribute(
     "content",
-    `Watch ${home.name} vs ${away.name} live streaming online on KasinTV with HD, FHD and smooth match links.`
+    `Watch ${home.name} vs ${away.name} live on KasinTV with HD, FHD smooth stream links for all devices.`
   );
 
   hero.innerHTML = `
@@ -848,17 +1049,17 @@ function renderHero(match) {
 
     <div class="meta-grid">
       <div class="meta">
-        <small>Match Time</small>
+        <small>⏰ Match Time</small>
         <b>${esc(time)}</b>
       </div>
 
       <div class="meta">
-        <small>Sport</small>
+        <small>🏆 Sport</small>
         <b>${esc(String(sport).toUpperCase())}</b>
       </div>
 
       <div class="meta">
-        <small>Status</small>
+        <small>📊 Status</small>
         <b>${esc(status)}</b>
       </div>
     </div>
@@ -869,8 +1070,8 @@ function renderLinks(links, match) {
   if (!links.length) {
     linksPanel.innerHTML = `
       <div class="error">
-        No stream links found for ID: ${esc(currentStreamId)}.
-        Check cricket.json / football.json key name.
+        ⚠️ No stream links found for ID: <strong>${esc(currentStreamId)}</strong><br>
+        Please check that the stream ID exists in cricket.json or football.json
       </div>
     `;
     return;
@@ -885,14 +1086,14 @@ function renderLinks(links, match) {
   });
 
   const groupOrder = [
-    "Android Only Links",
+    "Android Only",
     "Android Links",
     "iPhone Links",
-    "PC / Android Links",
-    "Smooth Links",
+    "PC / Desktop Links",
+    "Smooth Stream",
     "HD Links",
-    "FHD Links",
-    "Other Links"
+    "FHD / 4K",
+    "Available Links"
   ];
 
   const home = match.teams && match.teams.home ? match.teams.home.name : "Team A";
@@ -900,13 +1101,12 @@ function renderLinks(links, match) {
 
   let html = `
     <div class="section-title">
-      <h2>Live Stream Links</h2>
+      <h2>📺 Live Stream Links</h2>
       <span>${esc(shortName(home))} vs ${esc(shortName(away))}</span>
     </div>
 
     <p class="note">
-      Choose any available link below. If one stream is slow, buffering or not opening,
-      return to this page and try another backup link.
+      ⚡ Choose any available link below. If one stream is slow or buffering, try another backup link.
     </p>
   `;
 
@@ -922,7 +1122,7 @@ function renderLinks(links, match) {
            target="_blank"
            rel="noopener noreferrer">
           <span>${esc(item.name)}</span>
-          <small>Open</small>
+          <small>🔗 Open</small>
         </a>
       `;
     });
@@ -938,13 +1138,13 @@ function renderInfo(match) {
 
   infoPanel.innerHTML = `
     <div class="section-title">
-      <h2>Match Details</h2>
+      <h2>📋 Match Details</h2>
       <span>${esc(match.sport || currentSport)}</span>
     </div>
 
     <div class="info-table">
       <div class="info-row">
-        <span>Title</span>
+        <span>Match Title</span>
         <b>${esc(match.title || `${home} vs ${away}`)}</b>
       </div>
 
@@ -954,8 +1154,8 @@ function renderInfo(match) {
       </div>
 
       <div class="info-row">
-        <span>Venue</span>
-        <b>${esc(info.venue || "Not available")}</b>
+        <span>Venue / Location</span>
+        <b>${esc(info.venue || "Not specified")}</b>
       </div>
     </div>
   `;
@@ -970,31 +1170,31 @@ function renderSeo(match) {
     <h2>${esc(home)} vs ${esc(away)} Live Streaming</h2>
 
     <p>
-      Watch ${esc(home)} vs ${esc(away)} live streaming online on KasinTV with multiple
-      smooth, HD, FHD, Android, iPhone and PC match links. This page is created for fans
-      who want a clean, fast and mobile-friendly way to access live ${esc(sport)} coverage.
+      Watch ${esc(home)} vs ${esc(away)} live streaming online on KasinTV. We provide multiple smooth, 
+      HD, FHD, Android, iPhone and PC live stream links so you can enjoy the match on any device with 
+      smooth streaming quality.
     </p>
 
     <p>
-      KaSinTV provides different stream options because live match traffic can become high
-      during important moments. If one link is slow, buffering or not opening, viewers can
-      return to this page and try another available backup link.
+      Our platform offers different stream options because live match traffic can spike during important moments. 
+      If one link is slow, buffering or not opening, you can simply return to this page and try another backup link 
+      that works better for your internet speed.
     </p>
 
     <h3>How to Watch ${esc(home)} vs ${esc(away)} Live Online</h3>
 
     <p>
-      Scroll to the live links section and click any available button. Smooth links are useful
-      for slower internet, HD links are good for normal Wi-Fi, and FHD links are better for
-      viewers who want clearer quality with stable internet.
+      Simply scroll to the live stream links section above and click any available button. Our smooth links are perfect 
+      for slower internet connections, HD links work great for standard Wi-Fi, and FHD/4K links are for viewers with 
+      fast stable internet who want the best picture quality.
     </p>
 
-    <h3>${esc(home)} vs ${esc(away)} Match Coverage</h3>
+    <h3>${esc(home)} vs ${esc(away)} ${esc(sport.toUpperCase())} Coverage</h3>
 
     <p>
-      Fans searching for ${esc(home)} vs ${esc(away)} live, ${esc(home)} vs ${esc(away)}
-      HD streaming, online match coverage and live sports links can use this page as a quick
-      access hub.
+      Looking for ${esc(home)} vs ${esc(away)} live match streaming? Searching for online coverage, HD quality streams, 
+      or live ${esc(sport)} links? This page gives you instant access to all available broadcast options with multiple 
+      backup links for reliability.
     </p>
   `;
 }
@@ -1002,8 +1202,8 @@ function renderSeo(match) {
 function renderMoreMatches() {
   let html = `
     <div class="section-title">
-      <h2>More Matches</h2>
-      <span>${allMatches.length} total</span>
+      <h2>🎮 More Matches</h2>
+      <span>${allMatches.length} available</span>
     </div>
 
     <div class="more-list">
@@ -1024,13 +1224,13 @@ function renderMoreMatches() {
     html += `
       <a class="more-item" href="${location.pathname}?id=${encodeURIComponent(streamId)}">
         <span>${esc(home)} vs ${esc(away)}</span>
-        <small>${esc(match.sport || "sports")}</small>
+        <small>${esc(match.sport || "sports").toUpperCase()}</small>
       </a>
     `;
   });
 
   if (!count) {
-    html += `<p class="note">No more stream-ready matches available.</p>`;
+    html += `<p class="note">No additional matches available at this time.</p>`;
   }
 
   html += `</div>`;
@@ -1044,40 +1244,59 @@ function renderFaq(match) {
 
   faqPanel.innerHTML = `
     <div class="section-title">
-      <h2>FAQs</h2>
-      <span>Help</span>
+      <h2>❓ Frequently Asked Questions</h2>
+      <span>Help & Support</span>
     </div>
 
     <details open>
-      <summary>Which link should I open?</summary>
+      <summary>Which stream link should I use?</summary>
       <p>
-        Use Smooth links for slow internet, HD links for normal internet, and FHD links for
-        better quality. Android, iPhone and PC links may work differently depending on device.
+        Use Smooth links if you have slow internet, HD links for normal internet speeds, and FHD/4K links 
+        if you have fast reliable internet. Try Android/iPhone specific links if you're on mobile devices.
       </p>
     </details>
 
     <details>
-      <summary>What if one link does not work?</summary>
+      <summary>What if a stream link doesn't work?</summary>
       <p>
-        Return to this page and try another backup link. Different links may work better on
-        different browsers, networks and devices.
+        Different links may work differently depending on your browser, network, and device. If one link 
+        isn't working, simply go back and try another backup link. Most of the time at least one link will work smoothly.
       </p>
     </details>
 
     <details>
-      <summary>Can I watch ${esc(home)} vs ${esc(away)} on mobile?</summary>
+      <summary>Can I watch on my phone?</summary>
       <p>
-        Yes, this page works on Android, iPhone, tablet, laptop and desktop browsers.
+        Yes! This page works perfectly on Android phones, iPhones, tablets, and all modern browsers. We have 
+        dedicated Android and iPhone links for the best mobile experience.
+      </p>
+    </details>
+
+    <details>
+      <summary>Is the streaming free?</summary>
+      <p>
+        KasinTV is completely free to use. No subscription or payment is required to watch ${esc(home)} vs ${esc(away)} or any other matches on our platform.
+      </p>
+    </details>
+
+    <details>
+      <summary>Why does the stream buffer sometimes?</summary>
+      <p>
+        During high-traffic moments, streaming can be slow. This is normal. Try a lower quality stream (Smooth), 
+        close other apps using internet, or wait a few moments and refresh.
       </p>
     </details>
   `;
 }
 
+// ===== MAIN INITIALIZATION =====
 async function init() {
   if (!queryId) {
     linksPanel.innerHTML = `
       <div class="error">
-        Match ID missing. Example: match.html?id=slvsengw
+        ⚠️ <strong>Match ID is missing</strong><br>
+        Example: <code>index.html?id=slvsengw</code><br>
+        Please provide a valid match ID in the URL.
       </div>
     `;
     infoPanel.innerHTML = "";
@@ -1128,9 +1347,12 @@ async function init() {
     renderFaq(currentMatch);
 
   } catch (error) {
+    console.error("Initialization error:", error);
     linksPanel.innerHTML = `
       <div class="error">
-        Failed to load API. Check matches.json, cricket.json, football.json URL or CORS.
+        ❌ <strong>Failed to load API data</strong><br>
+        Please check that matches.json, cricket.json, and football.json are accessible.<br>
+        Error: ${esc(error.message)}
       </div>
     `;
     infoPanel.innerHTML = "";
@@ -1140,6 +1362,7 @@ async function init() {
   }
 }
 
+// Start the app
 init();
 </script>
 

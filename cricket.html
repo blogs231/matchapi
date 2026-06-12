@@ -3,331 +3,268 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>KasinTV Live Streaming</title>
   <meta name="description" content="Watch live cricket streaming on KasinTV with smooth, HD and FHD live match links." />
 
   <style>
-    * {
-      box-sizing: border-box;
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family:Arial,sans-serif;
+      background:radial-gradient(circle at top,#1e3a8a,#020617 55%);
+      color:#f8fafc;
     }
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: radial-gradient(circle at top, #1e3a8a, #020617 55%);
-      color: #f8fafc;
+    a{text-decoration:none}
+
+    .topbar{
+      background:rgba(2,6,23,.9);
+      border-bottom:1px solid rgba(255,255,255,.08);
+      padding:16px;
     }
 
-    a {
-      text-decoration: none;
+    .nav{
+      max-width:900px;
+      margin:auto;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
     }
 
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      background: rgba(2, 6, 23, 0.85);
-      backdrop-filter: blur(14px);
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-      padding: 14px 18px;
+    .brand{
+      font-size:24px;
+      font-weight:900;
+      color:#fff;
     }
 
-    .nav {
-      max-width: 980px;
-      margin: auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    .brand span{color:#38bdf8}
+
+    .nav-badge{
+      font-size:12px;
+      background:rgba(56,189,248,.15);
+      color:#7dd3fc;
+      padding:7px 12px;
+      border-radius:999px;
     }
 
-    .brand {
-      font-size: 24px;
-      font-weight: 900;
-      color: #fff;
+    .container{
+      max-width:900px;
+      margin:35px auto;
+      padding:0 15px;
     }
 
-    .brand span {
-      color: #38bdf8;
+    .hero{
+      max-width:850px;
+      margin:0 auto 25px;
+      border-radius:28px;
+      padding:34px 24px;
+      background:linear-gradient(135deg,#2563eb,#7c3aed);
+      box-shadow:0 20px 60px rgba(0,0,0,.35);
+      overflow:hidden;
     }
 
-    .nav-badge {
-      font-size: 12px;
-      background: rgba(56,189,248,0.15);
-      color: #7dd3fc;
-      padding: 7px 12px;
-      border-radius: 999px;
-      border: 1px solid rgba(125,211,252,0.25);
+    .live-pill{
+      display:inline-flex;
+      gap:8px;
+      align-items:center;
+      background:#ef4444;
+      padding:7px 13px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:800;
+      margin-bottom:16px;
     }
 
-    .container {
-      max-width: 980px;
-      margin: 35px auto;
-      padding: 0 16px;
+    .dot{
+      width:8px;
+      height:8px;
+      background:#fff;
+      border-radius:50%;
+      animation:blink 1s infinite;
     }
 
-    .hero {
-      position: relative;
-      overflow: hidden;
-      border-radius: 28px;
-      padding: 34px 22px;
-      background:
-        linear-gradient(135deg, rgba(37,99,235,.95), rgba(124,58,237,.95)),
-        radial-gradient(circle at right, rgba(34,211,238,.35), transparent 35%);
-      box-shadow: 0 20px 60px rgba(0,0,0,.35);
-      margin-bottom: 22px;
+    @keyframes blink{50%{opacity:.35}}
+
+    .hero h1{
+      margin:0;
+      font-size:34px;
+      line-height:1.25;
     }
 
-    .hero::after {
-      content: "";
-      position: absolute;
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      background: rgba(255,255,255,.12);
-      right: -70px;
-      top: -80px;
+    .hero p{
+      margin:12px 0 0;
+      color:#dbeafe;
     }
 
-    .live-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(239,68,68,.95);
-      color: #fff;
-      padding: 7px 13px;
-      border-radius: 999px;
-      font-size: 12px;
-      font-weight: 800;
-      margin-bottom: 16px;
+    .match-meta{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:12px;
+      margin-top:18px;
     }
 
-    .dot {
-      width: 8px;
-      height: 8px;
-      background: #fff;
-      border-radius: 50%;
-      animation: blink 1s infinite;
+    .meta-box{
+      background:rgba(255,255,255,.13);
+      border:1px solid rgba(255,255,255,.18);
+      padding:12px;
+      border-radius:16px;
     }
 
-    @keyframes blink {
-      50% { opacity: .35; }
+    .meta-box small{
+      display:block;
+      color:#bfdbfe;
+      font-size:11px;
+      margin-bottom:4px;
     }
 
-    .hero h1 {
-      margin: 0;
-      font-size: 34px;
-      line-height: 1.2;
-      position: relative;
-      z-index: 1;
+    .panel{
+      max-width:850px;
+      margin:auto;
+      background:rgba(15,23,42,.86);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:24px;
+      padding:24px;
+      box-shadow:0 14px 40px rgba(0,0,0,.25);
     }
 
-    .hero p {
-      margin: 12px 0 0;
-      color: #dbeafe;
-      position: relative;
-      z-index: 1;
+    .links-title{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:12px;
     }
 
-    .match-meta {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
-      margin: 18px 0 0;
-      position: relative;
-      z-index: 1;
+    .links-title h2{
+      margin:0;
+      font-size:24px;
     }
 
-    .meta-box {
-      background: rgba(255,255,255,.12);
-      border: 1px solid rgba(255,255,255,.18);
-      padding: 12px;
-      border-radius: 16px;
+    .links-title span{
+      color:#94a3b8;
+      font-size:12px;
     }
 
-    .meta-box small {
-      display: block;
-      color: #bfdbfe;
-      font-size: 11px;
-      margin-bottom: 4px;
+    .stream-note{
+      color:#cbd5e1;
+      line-height:1.7;
+      font-size:15px;
+      margin-bottom:20px;
     }
 
-    .meta-box b {
-      font-size: 14px;
+    .group-name{
+      font-size:13px;
+      color:#7dd3fc;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.7px;
+      margin:18px 0 8px;
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: 1.1fr .9fr;
-      gap: 20px;
-      align-items: start;
+    .stream-btn{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:18px;
+      margin:10px 0;
+      border-radius:18px;
+      background:linear-gradient(90deg,#2563eb,#4f46e5);
+      color:#fff;
+      font-size:16px;
+      font-weight:800;
+      transition:.2s;
     }
 
-    .panel {
-      background: rgba(15,23,42,.82);
-      border: 1px solid rgba(255,255,255,.08);
-      border-radius: 24px;
-      padding: 22px;
-      box-shadow: 0 14px 40px rgba(0,0,0,.25);
+    .stream-btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 10px 25px rgba(37,99,235,.35);
     }
 
-    .panel h2 {
-      margin: 0 0 14px;
-      font-size: 22px;
+    .stream-btn small{
+      color:#dbeafe;
+      font-size:12px;
     }
 
-    .stream-note {
-      color: #cbd5e1;
-      line-height: 1.7;
-      font-size: 14px;
-      margin-bottom: 18px;
+    .seo{
+      margin-top:30px;
+      line-height:1.9;
+      color:#d1d5db;
+      font-size:15px;
     }
 
-    .links-title {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 12px;
+    .seo h2{
+      color:#fff;
+      font-size:30px;
+      margin-top:0;
     }
 
-    .links-title span {
-      color: #94a3b8;
-      font-size: 12px;
+    .seo h3{
+      color:#fff;
+      font-size:22px;
+      margin-top:28px;
     }
 
-    .link-group {
-      margin-bottom: 18px;
+    .faq{
+      margin-top:30px;
     }
 
-    .group-name {
-      font-size: 13px;
-      color: #7dd3fc;
-      font-weight: 800;
-      margin: 0 0 8px;
-      text-transform: uppercase;
-      letter-spacing: .7px;
+    .faq details{
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:16px;
+      margin-bottom:10px;
+      padding:15px;
     }
 
-    .stream-btn {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      width: 100%;
-      padding: 15px 16px;
-      margin: 9px 0;
-      border-radius: 16px;
-      background: linear-gradient(90deg, rgba(37,99,235,.95), rgba(79,70,229,.95));
-      color: #fff;
-      font-size: 15px;
-      font-weight: 800;
-      border: 1px solid rgba(255,255,255,.12);
-      transition: .2s;
+    .faq summary{
+      cursor:pointer;
+      font-weight:800;
+      color:#fff;
     }
 
-    .stream-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 10px 25px rgba(37,99,235,.35);
+    .faq p{
+      color:#cbd5e1;
+      line-height:1.7;
+      margin-bottom:0;
     }
 
-    .stream-btn small {
-      color: #dbeafe;
-      font-size: 12px;
+    .more{
+      margin-top:30px;
     }
 
-    .seo {
-      margin-top: 20px;
-      line-height: 1.85;
-      color: #d1d5db;
-      font-size: 14px;
+    .more a{
+      display:block;
+      background:rgba(255,255,255,.06);
+      color:#fff;
+      padding:15px;
+      border-radius:16px;
+      margin:10px 0;
+      font-weight:800;
+      border:1px solid rgba(255,255,255,.08);
     }
 
-    .seo h2, .seo h3 {
-      color: #fff;
+    .error{
+      background:rgba(239,68,68,.15);
+      border:1px solid rgba(239,68,68,.35);
+      padding:16px;
+      border-radius:16px;
+      color:#fecaca;
+      font-weight:bold;
+      text-align:center;
     }
 
-    .seo h2 {
-      font-size: 24px;
-      margin-top: 0;
+    footer{
+      text-align:center;
+      padding:30px;
+      color:#94a3b8;
+      font-size:13px;
     }
 
-    .seo h3 {
-      font-size: 18px;
-      margin-top: 24px;
-    }
-
-    .side-card {
-      margin-bottom: 18px;
-    }
-
-    .quick-list {
-      display: grid;
-      gap: 10px;
-    }
-
-    .quick-item {
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.08);
-      border-radius: 16px;
-      padding: 14px;
-      color: #e5e7eb;
-      font-weight: 700;
-    }
-
-    .quick-item:hover {
-      background: rgba(56,189,248,.12);
-    }
-
-    .faq details {
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.08);
-      border-radius: 16px;
-      margin-bottom: 10px;
-      padding: 14px;
-    }
-
-    .faq summary {
-      cursor: pointer;
-      font-weight: 800;
-      color: #fff;
-    }
-
-    .faq p {
-      color: #cbd5e1;
-      line-height: 1.7;
-      margin-bottom: 0;
-      font-size: 14px;
-    }
-
-    .error {
-      background: rgba(239,68,68,.15);
-      border: 1px solid rgba(239,68,68,.35);
-      padding: 16px;
-      border-radius: 16px;
-      color: #fecaca;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 15px;
-      color: #94a3b8;
-      font-size: 13px;
-    }
-
-    @media(max-width: 820px) {
-      .grid {
-        grid-template-columns: 1fr;
-      }
-
-      .match-meta {
-        grid-template-columns: 1fr;
-      }
-
-      .hero h1 {
-        font-size: 27px;
-      }
+    @media(max-width:650px){
+      .hero h1{font-size:26px}
+      .match-meta{grid-template-columns:1fr}
+      .links-title{display:block}
+      .panel{padding:18px}
     }
   </style>
 </head>
@@ -348,42 +285,12 @@
     <p>Please wait while we load match details.</p>
   </section>
 
-  <section class="grid">
-    <div>
-      <div class="panel" id="mainPanel">Loading...</div>
-    </div>
-
-    <aside>
-      <div class="panel side-card">
-        <h2>More Matches</h2>
-        <div class="quick-list" id="moreMatches">Loading...</div>
-      </div>
-
-      <div class="panel faq">
-        <h2>FAQs</h2>
-
-        <details open>
-          <summary>Which link should I open?</summary>
-          <p>Use Smooth links for slow internet, HD links for normal internet, and FHD links for better quality.</p>
-        </details>
-
-        <details>
-          <summary>What if one link does not work?</summary>
-          <p>Try another link from the same match page. Different links may work better on different devices and networks.</p>
-        </details>
-
-        <details>
-          <summary>Does it work on mobile?</summary>
-          <p>Yes, this page is responsive and works on Android, iPhone, tablet, laptop and desktop browsers.</p>
-        </details>
-      </div>
-    </aside>
+  <section class="panel" id="mainPanel">
+    Loading...
   </section>
 </main>
 
-<footer>
-  © KasinTV Live Sports Streaming
-</footer>
+<footer>© KasinTV Live Sports Streaming</footer>
 
 <script>
 const API_URL = "https://blogs231.github.io/matchapi/cricket.json";
@@ -423,39 +330,38 @@ const matchId = params.get("id");
 
 const hero = document.getElementById("hero");
 const mainPanel = document.getElementById("mainPanel");
-const moreMatches = document.getElementById("moreMatches");
 
-function getMatchInfo(id) {
+function getMatchInfo(id){
   return matchInfo[id] || {
-    team1: "Team A",
-    team2: "Team B",
-    short1: "A",
-    short2: "B",
-    sport: "Sports",
-    league: "Live Sports",
-    status: "Live / Upcoming"
+    team1:"Team A",
+    team2:"Team B",
+    short1:"A",
+    short2:"B",
+    sport:"Sports",
+    league:"Live Sports",
+    status:"Live / Upcoming"
   };
 }
 
-function getQuality(key) {
-  if (key.startsWith("smooth")) return "smooth";
-  if (key.startsWith("hd")) return "hd";
-  if (key.startsWith("fhd")) return "fhd";
+function getQuality(key){
+  if(key.startsWith("smooth")) return "smooth";
+  if(key.startsWith("hd")) return "hd";
+  if(key.startsWith("fhd")) return "fhd";
   return "other";
 }
 
-function makeButtonTitle(key, info) {
-  const number = key.replace(/\D/g, "") || "";
-  const quality = getQuality(key);
+function buttonTitle(key){
+  const n = key.replace(/\D/g,"") || "";
+  const q = getQuality(key);
 
-  if (quality === "smooth") return `▶ Smooth Link ${number}`;
-  if (quality === "hd") return `▶ HD Link ${number}`;
-  if (quality === "fhd") return `⚡ FHD Link ${number}`;
+  if(q === "smooth") return `▶ Smooth Link ${n}`;
+  if(q === "hd") return `▶ HD Link ${n}`;
+  if(q === "fhd") return `⚡ FHD Link ${n}`;
 
-  return `▶ Watch Link ${number}`;
+  return `▶ Watch Link ${n}`;
 }
 
-function renderHero(info) {
+function renderHero(info){
   hero.innerHTML = `
     <div class="live-pill"><span class="dot"></span> LIVE STREAMING</div>
     <h1>${info.team1} vs ${info.team2} Live Streaming</h1>
@@ -478,81 +384,12 @@ function renderHero(info) {
   `;
 }
 
-function seoContent(info) {
-  return `
-    <div class="seo">
-      <h2>${info.team1} vs ${info.team2} Live Match Preview</h2>
+function renderLinks(match, info){
+  const groups = { smooth:[], hd:[], fhd:[], other:[] };
 
-      <p>
-        Watch ${info.team1} vs ${info.team2} live streaming online on KasinTV with multiple smooth,
-        HD and FHD match links. This page is made for fans who want a fast, clean and mobile-friendly
-        way to access live ${info.sport} coverage without searching through many pages. Whether you are
-        using Android, iPhone, laptop, desktop, tablet or Smart TV browser, you can open the available
-        streaming buttons and select the link that works best for your internet connection.
-      </p>
-
-      <p>
-        KasinTV gives different streaming choices because live match traffic can become very high during
-        important moments. During toss time, powerplay, final overs, wickets, boundaries, innings break
-        or close finishes, one server may become slow or overloaded. For that reason, this page includes
-        backup links so viewers can switch quickly if one stream buffers, freezes or does not open.
-      </p>
-
-      <h3>How to Watch ${info.team1} vs ${info.team2} Live Online</h3>
-
-      <p>
-        To watch ${info.team1} vs ${info.team2} live online, scroll to the live links section and click
-        any available button. Smooth links are useful for slower mobile data or unstable internet. HD links
-        are better for normal Wi-Fi and broadband users. FHD links are best for viewers who want clearer
-        picture quality and have a stable connection. If the first link does not work, return to this page
-        and try the second or third option.
-      </p>
-
-      <p>
-        For the best experience, use an updated browser such as Chrome, Safari, Edge or Firefox. Close extra
-        background apps if your device is slow, and avoid heavy downloads while watching the live match.
-        If audio or video does not load properly, refresh the stream once or try another quality option.
-      </p>
-
-      <h3>${info.team1} vs ${info.team2} HD Streaming Guide</h3>
-
-      <p>
-        Fans searching for ${info.team1} vs ${info.team2} live, ${info.team1} vs ${info.team2} HD streaming,
-        ${info.team1} vs ${info.team2} FHD link, ${info.team1} vs ${info.team2} online match and
-        ${info.league} live coverage can use this page as a quick match access hub. The design is simple:
-        match information at the top, streaming buttons in the middle and useful viewing guidance below.
-      </p>
-
-      <p>
-        This page is responsive, so it adjusts automatically for mobile and desktop screens. Mobile users can
-        open the stream links directly, while desktop users can use a larger screen for a better viewing
-        experience. If one link is blocked or not loading on your network, another available link may still
-        open correctly.
-      </p>
-
-      <h3>Why Use KasinTV?</h3>
-
-      <p>
-        KasinTV focuses on simple live sports access. The page avoids complicated menus and shows the match
-        links clearly so viewers can start watching quickly. Multiple quality options help users choose between
-        low-data viewing, balanced HD viewing and high-quality FHD viewing. Bookmark this page and return during
-        the match if you need another working option.
-      </p>
-    </div>
-  `;
-}
-
-function renderLinks(match, info) {
-  const groups = {
-    smooth: [],
-    hd: [],
-    fhd: [],
-    other: []
-  };
-
-  Object.entries(match).forEach(([key, url]) => {
-    if (!url) return;
-    groups[getQuality(key)].push({ key, url });
+  Object.entries(match).forEach(([key,url])=>{
+    if(!url) return;
+    groups[getQuality(key)].push({key,url});
   });
 
   let html = `
@@ -560,27 +397,29 @@ function renderLinks(match, info) {
       <h2>Live Stream Links</h2>
       <span>${info.short1} vs ${info.short2}</span>
     </div>
+
     <p class="stream-note">
-      Choose any available link below. If one link is slow or not opening, try another option.
+      Choose any available link below. If one stream is slow, buffering or not opening,
+      return to this page and try another backup link.
     </p>
   `;
 
-  const groupLabels = {
-    smooth: "Smooth Links",
-    hd: "HD Links",
-    fhd: "FHD Links",
-    other: "Other Links"
+  const labels = {
+    smooth:"Smooth Links",
+    hd:"HD Links",
+    fhd:"FHD Links",
+    other:"Other Links"
   };
 
-  Object.keys(groups).forEach(group => {
-    if (!groups[group].length) return;
+  Object.keys(groups).forEach(group=>{
+    if(!groups[group].length) return;
 
-    html += `<div class="link-group"><p class="group-name">${groupLabels[group]}</p>`;
+    html += `<div class="link-group"><p class="group-name">${labels[group]}</p>`;
 
-    groups[group].forEach(item => {
+    groups[group].forEach(item=>{
       html += `
         <a class="stream-btn" href="${item.url}" target="_blank" rel="noopener noreferrer">
-          <span>${makeButtonTitle(item.key, info)}</span>
+          <span>${buttonTitle(item.key)}</span>
           <small>Open</small>
         </a>
       `;
@@ -592,40 +431,122 @@ function renderLinks(match, info) {
   return html;
 }
 
-function renderMoreMatches(data) {
-  moreMatches.innerHTML = "";
+function seoContent(info){
+  return `
+    <div class="seo">
+      <h2>${info.team1} vs ${info.team2} Live Match Preview</h2>
 
-  Object.keys(data).forEach(id => {
-    if (id === matchId) return;
+      <p>
+        Watch ${info.team1} vs ${info.team2} live streaming online on KasinTV with multiple smooth,
+        HD and FHD match links. This page is made for fans who want a fast, clean and mobile-friendly
+        way to access live ${info.sport} coverage without searching through many pages.
+      </p>
+
+      <p>
+        KasinTV provides different streaming choices because live match traffic can become very high
+        during important moments. During toss time, powerplay, final overs, wickets, boundaries,
+        innings break or close finishes, one server may become slow or overloaded.
+      </p>
+
+      <h3>How to Watch ${info.team1} vs ${info.team2} Live Online</h3>
+
+      <p>
+        To watch ${info.team1} vs ${info.team2} live online, scroll to the live links section and click
+        any available button. Smooth links are useful for slower mobile data or unstable internet.
+        HD links are better for normal Wi-Fi and broadband users. FHD links are best for viewers
+        who want clearer picture quality and have a stable connection.
+      </p>
+
+      <p>
+        If the first link does not work, return to this page and try the second or third option.
+        For the best experience, use an updated browser such as Chrome, Safari, Edge or Firefox.
+      </p>
+
+      <h3>${info.team1} vs ${info.team2} HD Streaming Guide</h3>
+
+      <p>
+        Fans searching for ${info.team1} vs ${info.team2} live, ${info.team1} vs ${info.team2}
+        HD streaming, ${info.team1} vs ${info.team2} FHD link, ${info.team1} vs ${info.team2}
+        online match and ${info.league} live coverage can use this page as a quick match access hub.
+      </p>
+
+      <p>
+        This page is responsive, so it adjusts automatically for mobile and desktop screens.
+        Mobile users can open the stream links directly, while desktop users can use a larger screen
+        for a better viewing experience.
+      </p>
+
+      <h3>Why Use KasinTV?</h3>
+
+      <p>
+        KasinTV focuses on simple live sports access. The page avoids complicated menus and shows the
+        match links clearly so viewers can start watching quickly. Multiple quality options help users
+        choose between low-data viewing, balanced HD viewing and high-quality FHD viewing.
+      </p>
+
+      <div class="faq">
+        <h2>FAQs</h2>
+
+        <details open>
+          <summary>Which link should I open?</summary>
+          <p>Use Smooth links for slow internet, HD links for normal internet, and FHD links for better quality.</p>
+        </details>
+
+        <details>
+          <summary>What if one link does not work?</summary>
+          <p>Try another link from the same match page. Different links may work better on different devices and networks.</p>
+        </details>
+
+        <details>
+          <summary>Does it work on mobile?</summary>
+          <p>Yes, this page works on Android, iPhone, tablet, laptop and desktop browsers.</p>
+        </details>
+      </div>
+
+      <div class="more">
+        <h2>More Matches</h2>
+        <div id="moreMatches">Loading...</div>
+      </div>
+    </div>
+  `;
+}
+
+function renderMoreMatches(data){
+  const more = document.getElementById("moreMatches");
+  if(!more) return;
+
+  more.innerHTML = "";
+
+  Object.keys(data).forEach(id=>{
+    if(id === matchId) return;
 
     const info = getMatchInfo(id);
     const a = document.createElement("a");
 
-    a.className = "quick-item";
     a.href = `cricket.html?id=${id}`;
     a.innerText = `${info.team1} vs ${info.team2}`;
 
-    moreMatches.appendChild(a);
+    more.appendChild(a);
   });
 
-  if (!moreMatches.innerHTML) {
-    moreMatches.innerHTML = `<div class="quick-item">No more matches available</div>`;
+  if(!more.innerHTML){
+    more.innerHTML = "No more matches available.";
   }
 }
 
-async function loadMatch() {
-  if (!matchId) {
+async function loadMatch(){
+  if(!matchId){
     mainPanel.innerHTML = `<div class="error">Match ID missing. Example: cricket.html?id=engvsnz</div>`;
     return;
   }
 
-  try {
+  try{
     const res = await fetch(API_URL);
     const data = await res.json();
 
     const match = data[matchId];
 
-    if (!match) {
+    if(!match){
       mainPanel.innerHTML = `<div class="error">Match not found in cricket.json</div>`;
       return;
     }
@@ -633,6 +554,7 @@ async function loadMatch() {
     const info = getMatchInfo(matchId);
 
     document.title = `${info.team1} vs ${info.team2} Live Streaming - KasinTV`;
+
     document.querySelector("meta[name='description']").setAttribute(
       "content",
       `Watch ${info.team1} vs ${info.team2} live streaming online on KasinTV with smooth, HD and FHD match links.`
@@ -644,8 +566,8 @@ async function loadMatch() {
 
     renderMoreMatches(data);
 
-  } catch (error) {
-    mainPanel.innerHTML = `<div class="error">Failed to load match data. Check cricket.json URL or internet connection.</div>`;
+  }catch(error){
+    mainPanel.innerHTML = `<div class="error">Failed to load match data. Check cricket.json URL.</div>`;
   }
 }
 

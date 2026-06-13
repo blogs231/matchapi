@@ -1,6 +1,6 @@
 {
   "matches": [
-  {
+    {
       "match_id": "slaafga_trination_2026_03",
       "stream_id": "slaafga",
       "title": "Sri Lanka A vs Afghanistan A (3rd Match)",
@@ -52,140 +52,135 @@
         "watch": "https://matchapi.pages.dev/cricket?id=indvsafg"
       }
     },
-    [
- [
-  {
-    "match_id": "qatsui_2026_groupb",
-    "stream_id": "qatvssui",
-    "title": "Qatar vs Switzerland",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Qatar",
-        "logo": "https://static.flashscore.com/res/image/data/vky4LWkl-UPMdbcD9.png"
+    {
+      "match_id": "qatsui_2026_groupb",
+      "stream_id": "qatvssui",
+      "title": "Qatar vs Switzerland",
+      "sport": "soccer",
+      "teams": {
+        "home": {
+          "name": "Qatar",
+          "logo": "https://static.flashscore.com/res/image/data/vky4LWkl-UPMdbcD9.png"
+        },
+        "away": {
+          "name": "Switzerland",
+          "logo": "https://static.flashscore.com/res/image/data/tWvN5N9r-88LAtdNt.png"
+        }
       },
-      "away": {
-        "name": "Switzerland",
-        "logo": "https://static.flashscore.com/res/image/data/tWvN5N9r-88LAtdNt.png"
+      "match_info": {
+        "start_time": "2026-06-14T00:45:00+05:45",
+        "end_time": "2026-06-14T02:45:00+05:45",
+        "display_time": "12:45 AM",
+        "venue": "San Francisco Bay Area Stadium, California, USA",
+        "status": "vs"
+      },
+      "links": {
+        "watch": "/"
       }
     },
-    "match_info": {
-      "start_time": "2026-06-14T00:45:00+05:45",
-      "end_time": "2026-06-14T02:45:00+05:45",
-      "display_time": "12:45 AM",
-      "venue": "San Francisco Bay Area Stadium, California, USA",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "/"
-    }
-  },
-  {
-    "match_id": "bramar_2026_groupc",
-    "stream_id": "bravsmar",
-    "title": "Brazil vs Morocco",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Brazil",
-        "logo": "https://static.flashscore.com/res/image/data/hCaVxehl-88LAtdNt.png"
+    {
+      "match_id": "bramar_2026_groupc",
+      "stream_id": "bravsmar",
+      "title": "Brazil vs Morocco",
+      "sport": "soccer",
+      "teams": {
+        "home": {
+          "name": "Brazil",
+          "logo": "https://static.flashscore.com/res/image/data/hCaVxehl-88LAtdNt.png"
+        },
+        "away": {
+          "name": "Morocco",
+          "logo": "https://static.flashscore.com/res/image/data/byRvSVil-hOurGDLS.png"
+        }
       },
-      "away": {
-        "name": "Morocco",
-        "logo": "https://static.flashscore.com/res/image/data/byRvSVil-hOurGDLS.png"
+      "match_info": {
+        "start_time": "2026-06-14T03:45:00+05:45",
+        "end_time": "2026-06-14T05:45:00+05:45",
+        "display_time": "03:45 AM",
+        "venue": "New York New Jersey Stadium, New Jersey, USA",
+        "status": "vs"
+      },
+      "links": {
+        "watch": "/"
       }
     },
-    "match_info": {
-      "start_time": "2026-06-14T03:45:00+05:45",
-      "end_time": "2026-06-14T05:45:00+05:45",
-      "display_time": "03:45 AM",
-      "venue": "New York New Jersey Stadium, New Jersey, USA",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "/"
-    }
-  },
-  {
-    "match_id": "haisco_2026_groupc",
-    "stream_id": "haivssco",
-    "title": "Haiti vs Scotland",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Haiti",
-        "logo": "https://static.flashscore.com/res/image/data/OzGon6Da-GY05WHbt.png"
+    {
+      "match_id": "haisco_2026_groupc",
+      "stream_id": "haivssco",
+      "title": "Haiti vs Scotland",
+      "sport": "soccer",
+      "teams": {
+        "home": {
+          "name": "Haiti",
+          "logo": "https://static.flashscore.com/res/image/data/OzGon6Da-GY05WHbt.png"
+        },
+        "away": {
+          "name": "Scotland",
+          "logo": "https://static.flashscore.com/res/image/data/lf3kdFwS-lfZlm1uk.png"
+        }
       },
-      "away": {
-        "name": "Scotland",
-        "logo": "https://static.flashscore.com/res/image/data/lf3kdFwS-lfZlm1uk.png"
+      "match_info": {
+        "start_time": "2026-06-14T06:45:00+05:45",
+        "end_time": "2026-06-14T08:45:00+05:45",
+        "display_time": "06:45 AM",
+        "venue": "Boston Stadium, Massachusetts, USA",
+        "status": "vs"
+      },
+      "links": {
+        "watch": "/"
       }
     },
-    "match_info": {
-      "start_time": "2026-06-14T06:45:00+05:45",
-      "end_time": "2026-06-14T08:45:00+05:45",
-      "display_time": "06:45 AM",
-      "venue": "Boston Stadium, Massachusetts, USA",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "/"
-    }
-  },
-  {
-    "match_id": "austur_2026_groupd",
-    "stream_id": "ausvstur",
-    "title": "Australia vs Turkey",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Australia",
-        "logo": "https://static.flashscore.com/res/image/data/Ygu7zgHG-YNb3oHYR.png"
+    {
+      "match_id": "austur_2026_groupd",
+      "stream_id": "ausvstur",
+      "title": "Australia vs Turkey",
+      "sport": "soccer",
+      "teams": {
+        "home": {
+          "name": "Australia",
+          "logo": "https://static.flashscore.com/res/image/data/Ygu7zgHG-YNb3oHYR.png"
+        },
+        "away": {
+          "name": "Turkey",
+          "logo": "https://static.flashscore.com/res/image/data/Q7zzy7HG-Cfuwb3yH.png"
+        }
       },
-      "away": {
-        "name": "Turkey",
-        "logo": "https://static.flashscore.com/res/image/data/Q7zzy7HG-Cfuwb3yH.png"
+      "match_info": {
+        "start_time": "2026-06-14T09:45:00+05:45",
+        "end_time": "2026-06-14T11:45:00+05:45",
+        "display_time": "09:45 AM",
+        "venue": "BC Place, Vancouver, Canada",
+        "status": "vs"
+      },
+      "links": {
+        "watch": "/"
       }
     },
-    "match_info": {
-      "start_time": "2026-06-14T09:45:00+05:45",
-      "end_time": "2026-06-14T11:45:00+05:45",
-      "display_time": "09:45 AM",
-      "venue": "BC Place, Vancouver, Canada",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "/"
-    }
-  },
-  {
-    "match_id": "gercur_2026_groupe",
-    "stream_id": "gervscur",
-    "title": "Germany vs Curacao",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Germany",
-        "logo": "https://static.flashscore.com/res/image/data/zP226aXg-fB4vYUZp.png"
+    {
+      "match_id": "gercur_2026_groupe",
+      "stream_id": "gervscur",
+      "title": "Germany vs Curacao",
+      "sport": "soccer",
+      "teams": {
+        "home": {
+          "name": "Germany",
+          "logo": "https://static.flashscore.com/res/image/data/zP226aXg-fB4vYUZp.png"
+        },
+        "away": {
+          "name": "Curacao",
+          "logo": "https://static.flashscore.com/res/image/data/bJ37l5f5-dERAD3h1.png"
+        }
       },
-      "away": {
-        "name": "Curacao",
-        "logo": "https://static.flashscore.com/res/image/data/bJ37l5f5-dERAD3h1.png"
+      "match_info": {
+        "start_time": "2026-06-14T22:45:00+05:45",
+        "end_time": "2026-06-15T00:45:00+05:45",
+        "display_time": "10:45 PM",
+        "venue": "Hard Rock Stadium, Miami, Florida, USA",
+        "status": "vs"
+      },
+      "links": {
+        "watch": "/"
       }
-    },
-    "match_info": {
-      "start_time": "2026-06-14T22:45:00+05:45",
-      "end_time": "2026-06-15T00:45:00+05:45",
-      "display_time": "10:45 PM",
-      "venue": "Hard Rock Stadium, Miami, Florida, USA",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "/"
     }
-  }
-]
-
-    
   ]
 }

@@ -1,32 +1,6 @@
 {
   "matches": [
     {
-      "match_id": "slaafga_trination_2026_03",
-      "stream_id": "slaafga",
-      "title": "Sri Lanka A vs Afghanistan A (3rd Match)",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "Sri Lanka A",
-          "logo": "https://aimages.willow.tv/teamLogos/srilanka.png"
-        },
-        "away": {
-          "name": "Afghanistan A",
-          "logo": "https://aimages.willow.tv/teamLogos/afghanistan.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-06-13T09:45:00+05:45",
-        "end_time": "2026-06-13T17:45:00+05:45",
-        "display_time": "9:45 AM",
-        "venue": "Rangiri Dambulla International Stadium, Dambulla, Sri Lanka",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=slaafga"
-      }
-    },
-    {
       "match_id": "indafg_2026_01odi",
       "stream_id": "indvsafg",
       "title": "India vs Afghanistan (1st ODI)",

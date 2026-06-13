@@ -1,57 +1,7 @@
 {
   "matches": [
-    {
-      "match_id": "engwslw_t20wc_2026_01",
-      "stream_id": "slvsengw",
-      "title": "England Women vs Sri Lanka Women (Match 1, Group B)",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "England Women",
-          "logo": "https://aimages.willow.tv/teamLogos/england.png"
-        },
-        "away": {
-          "name": "Sri Lanka Women",
-          "logo": "https://aimages.willow.tv/teamLogos/srilanka.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-06-12T11:00:00+05:45",
-        "end_time": "2026-06-13T21:00:00+05:45",
-        "display_time": "11:00 PM",
-        "venue": "Edgbaston, Birmingham, England",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=slvsengw"
-      }
-    },
-    {
-      "match_id": "canusa_cwcl2_2026_112",
-      "stream_id": "canvsusa",
-      "title": "Canada vs United States of America (112th Match)",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "Canada",
-          "logo": "https://aimages.willow.tv/teamLogos/canada.png"
-        },
-        "away": {
-          "name": "U.S.A.",
-          "logo": "https://aimages.willow.tv/teamLogos/usa.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-06-12T20:45:00+05:45",
-        "end_time": "2026-06-13T21:45:00+05:45",
-        "display_time": "1:45 PM",
-        "venue": "Maple Leaf North-West Ground, King City, Canada",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=canvsusa"
-      }
-    },
+  
+  
     {
       "match_id": "slaafga_trination_2026_03",
       "stream_id": "slaafga",
@@ -103,58 +53,7 @@
       "links": {
         "watch": "https://matchapi.pages.dev/cricket?id=indvsafg"
       }
-    },
-    {
-      "match_id": "canbih_fifawc_2026_03",
-      "stream_id": "canbih",
-      "title": "Canada vs Bosnia and Herzegovina (Group B)",
-      "sport": "football",
-      "teams": {
-        "home": {
-          "name": "Canada",
-          "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/can.png"
-        },
-        "away": {
-          "name": "Bosnia & Herzegovina",
-          "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bih.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-06-13T00:45:00+05:45",
-        "end_time": "2026-06-13T02:45:00+05:45",
-        "display_time": "12:45 AM",
-        "venue": "Toronto Stadium, Toronto, Canada",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=canbih"
-      }
-    },
-    {
-      "match_id": "usapar_fifawc_2026_04",
-      "stream_id": "usapar",
-      "title": "United States vs Paraguay (Group D)",
-      "sport": "football",
-      "teams": {
-        "home": {
-          "name": "USA",
-          "logo": "https://static.flashscore.com/res/image/data/GpV4Cle5-MPdHoKT3.png"
-        },
-        "away": {
-          "name": "Paraguay",
-          "logo": "https://static.flashscore.com/res/image/data/xlHCGmwS-fXkePq9D.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-06-13T07:45:00+05:45",
-        "end_time": "2026-06-13T08:45:00+05:45",
-        "display_time": "7:45 AM",
-        "venue": "Los Angeles Stadium, Inglewood, USA",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=usapar"
-      }
     }
+    
   ]
 }

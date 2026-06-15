@@ -26,31 +26,163 @@
         "watch": "https://matchapi.pages.dev/cricket?id=indvsafg"
       }
     },
-    {
-      "match_id": "gercur_2026_groupe",
-      "stream_id": "gervscur",
-      "title": "Germany vs Curacao",
-      "sport": "soccer",
-      "teams": {
-        "home": {
-          "name": "Germany",
-          "logo": "https://static.flashscore.com/res/image/data/zP226aXg-fB4vYUZp.png"
-        },
-        "away": {
-          "name": "Curacao",
-          "logo": "https://static.flashscore.com/res/image/data/bJ37l5f5-dERAD3h1.png"
-        }
+  {
+    "match_id": "espcpv_2026_grouph",
+    "stream_id": "espvscpv",
+    "title": "Spain vs Cape Verde",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Spain",
+        "logo": "https://flagcdn.com/w40/es.png"
       },
-      "match_info": {
-        "start_time": "2026-06-14T22:45:00+05:45",
-        "end_time": "2026-06-15T00:45:00+05:45",
-        "display_time": "10:45 PM",
-        "venue": "Hard Rock Stadium, Miami, Florida, USA",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=gervscur"
+      "away": {
+        "name": "Cape Verde",
+        "logo": "https://flagcdn.com/w40/cv.png"
       }
+    },
+    "match_info": {
+      "start_time": "2026-06-15T21:45:00+05:45",
+      "end_time": "2026-06-15T23:45:00+05:45",
+      "display_time": "09:45 PM",
+      "venue": "Mercedes-Benz Stadium, Atlanta, Georgia, USA",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=espvscpv"
     }
+  },
+  {
+    "match_id": "belegy_2026_groupg",
+    "stream_id": "belvsegy",
+    "title": "Belgium vs Egypt",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Belgium",
+        "logo": "https://flagcdn.com/w40/be.png"
+      },
+      "away": {
+        "name": "Egypt",
+        "logo": "https://flagcdn.com/w40/eg.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-16T00:45:00+05:45",
+      "end_time": "2026-06-16T02:45:00+05:45",
+      "display_time": "12:45 AM",
+      "venue": "Lumen Field, Seattle, Washington, USA",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=belvsegy"
+    }
+  },
+  {
+    "match_id": "ksauru_2026_grouph",
+    "stream_id": "ksavsuru",
+    "title": "Saudi Arabia vs Uruguay",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Saudi Arabia",
+        "logo": "https://flagcdn.com/w40/sa.png"
+      },
+      "away": {
+        "name": "Uruguay",
+        "logo": "https://flagcdn.com/w40/uy.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-16T03:45:00+05:45",
+      "end_time": "2026-06-16T05:45:00+05:45",
+      "display_time": "03:45 AM",
+      "venue": "Hard Rock Stadium, Miami Gardens, Florida, USA",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=ksavsuru"
+    }
+  },
+  {
+    "match_id": "irnnzl_2026_groupg",
+    "stream_id": "irnvsnzl",
+    "title": "Iran vs New Zealand",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Iran",
+        "logo": "https://flagcdn.com/w40/ir.png"
+      },
+      "away": {
+        "name": "New Zealand",
+        "logo": "https://flagcdn.com/w40/nz.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-16T06:45:00+05:45",
+      "end_time": "2026-06-16T08:45:00+05:45",
+      "display_time": "06:45 AM",
+      "venue": "SoFi Stadium, Inglewood, California, USA",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=irnvsnzl"
+    }
+  },
+  {
+    "match_id": "frasen_2026_groupe",
+    "stream_id": "fravssen",
+    "title": "France vs Senegal",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "France",
+        "logo": "https://flagcdn.com/w40/fr.png"
+      },
+      "away": {
+        "name": "Senegal",
+        "logo": "https://flagcdn.com/w40/sn.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-17T00:45:00+05:45",
+      "end_time": "2026-06-17T02:45:00+05:45",
+      "display_time": "12:45 AM",
+      "venue": "TBD",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=fravssen"
+    }
+  },
+  {
+    "match_id": "irqnor_2026_groupf",
+    "stream_id": "irqvsnor",
+    "title": "Iraq vs Norway",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Iraq",
+        "logo": "https://flagcdn.com/w40/iq.png"
+      },
+      "away": {
+        "name": "Norway",
+        "logo": "https://flagcdn.com/w40/no.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-17T03:45:00+05:45",
+      "end_time": "2026-06-17T05:45:00+05:45",
+      "display_time": "03:45 AM",
+      "venue": "TBD",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=irqvsnor"
+    }
+  }
+
+    
   ]
 }

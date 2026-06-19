@@ -1,163 +1,137 @@
 {
   "matches": [
-    {
-      "match_id": "indafg_2026_01odi",
-      "stream_id": "indvsafg",
-      "title": "India vs Afghanistan (1st ODI)",
-      "sport": "cricket",
-      "teams": {
-        "home": {
-          "name": "India",
-          "logo": "https://aimages.willow.tv/teamLogos/india.png"
-        },
-        "away": {
-          "name": "Afghanistan",
-          "logo": "https://aimages.willow.tv/teamLogos/afghanistan.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-06-17T13:45:00+05:45",
-        "end_time": "2026-06-18T21:45:00+05:45",
-        "display_time": "1:45 PM",
-        "venue": "HPCA Stadium, Dharamshala, India",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=indvsafg"
-      }
-    },
-
     
   {
-    "match_id": "porcod_2026_groupk",
-    "stream_id": "porvscod",
-    "title": "Portugal vs DR Congo",
+    "match_id": "usaaus_2026_groupd",
+    "stream_id": "usavsaus",
+    "title": "USA vs Australia",
     "sport": "soccer",
     "teams": {
       "home": {
-        "name": "Portugal",
-        "logo": "https://flagcdn.com/w40/pt.png"
+        "name": "USA",
+        "logo": "https://flagcdn.com/w40/us.png"
       },
       "away": {
-        "name": "DR Congo",
-        "logo": "https://flagcdn.com/w40/cd.png"
+        "name": "Australia",
+        "logo": "https://flagcdn.com/w40/au.png"
       }
     },
     "match_info": {
-      "start_time": "2026-06-17T22:45:00+05:45",
-      "end_time": "2026-06-18T00:45:00+05:45",
+      "start_time": "2026-06-19T00:45:00+05:45",
+      "end_time": "2026-06-19T02:45:00+05:45",
+      "display_time": "12:45 AM",
+      "venue": "TBD",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=usavsaus"
+    }
+  },
+  {
+    "match_id": "sctmar_2026_groupc",
+    "stream_id": "sctvsmar",
+    "title": "Scotland vs Morocco",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Scotland",
+        "logo": "https://flagcdn.com/w40/gb-sct.png"
+      },
+      "away": {
+        "name": "Morocco",
+        "logo": "https://flagcdn.com/w40/ma.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-19T03:45:00+05:45",
+      "end_time": "2026-06-19T05:45:00+05:45",
+      "display_time": "03:45 AM",
+      "venue": "TBD",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=sctvsmar"
+    }
+  },
+  {
+    "match_id": "brahti_2026_groupc",
+    "stream_id": "bravshti",
+    "title": "Brazil vs Haiti",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Brazil",
+        "logo": "https://flagcdn.com/w40/br.png"
+      },
+      "away": {
+        "name": "Haiti",
+        "logo": "https://flagcdn.com/w40/ht.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-19T06:15:00+05:45",
+      "end_time": "2026-06-19T08:15:00+05:45",
+      "display_time": "06:15 AM",
+      "venue": "TBD",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=bravshti"
+    }
+  },
+  {
+    "match_id": "turpar_2026_groupd",
+    "stream_id": "turvspar",
+    "title": "Türkiye vs Paraguay",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Türkiye",
+        "logo": "https://flagcdn.com/w40/tr.png"
+      },
+      "away": {
+        "name": "Paraguay",
+        "logo": "https://flagcdn.com/w40/py.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-19T08:45:00+05:45",
+      "end_time": "2026-06-19T10:45:00+05:45",
+      "display_time": "08:45 AM",
+      "venue": "TBD",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=turvspar"
+    }
+  },
+  {
+    "match_id": "nedswe_2026_groupf",
+    "stream_id": "nedvsswe",
+    "title": "Netherlands vs Sweden",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Netherlands",
+        "logo": "https://flagcdn.com/w40/nl.png"
+      },
+      "away": {
+        "name": "Sweden",
+        "logo": "https://flagcdn.com/w40/se.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-19T22:45:00+05:45",
+      "end_time": "2026-06-20T00:45:00+05:45",
       "display_time": "10:45 PM",
       "venue": "TBD",
       "status": "vs"
     },
     "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=porvscod"
-    }
-  },
-  {
-    "match_id": "engcro_2026_groupl",
-    "stream_id": "engvscro",
-    "title": "England vs Croatia",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "England",
-        "logo": "https://flagcdn.com/w40/gb-eng.png"
-      },
-      "away": {
-        "name": "Croatia",
-        "logo": "https://flagcdn.com/w40/hr.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-18T01:45:00+05:45",
-      "end_time": "2026-06-18T03:45:00+05:45",
-      "display_time": "01:45 AM",
-      "venue": "TBD",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=engvscro"
-    }
-  },
-  {
-    "match_id": "ghapan_2026_groupl",
-    "stream_id": "ghavspan",
-    "title": "Ghana vs Panama",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Ghana",
-        "logo": "https://flagcdn.com/w40/gh.png"
-      },
-      "away": {
-        "name": "Panama",
-        "logo": "https://flagcdn.com/w40/pa.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-18T04:45:00+05:45",
-      "end_time": "2026-06-18T06:45:00+05:45",
-      "display_time": "04:45 AM",
-      "venue": "TBD",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=ghavspan"
-    }
-  },
-  {
-    "match_id": "uzbcol_2026_groupk",
-    "stream_id": "uzbvscol",
-    "title": "Uzbekistan vs Colombia",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Uzbekistan",
-        "logo": "https://flagcdn.com/w40/uz.png"
-      },
-      "away": {
-        "name": "Colombia",
-        "logo": "https://flagcdn.com/w40/co.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-18T07:45:00+05:45",
-      "end_time": "2026-06-18T09:45:00+05:45",
-      "display_time": "07:45 AM",
-      "venue": "TBD",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=uzbvscol"
-    }
-  },
-  {
-    "match_id": "czersa_2026_groupa",
-    "stream_id": "czevsrsa",
-    "title": "Czechia vs South Africa",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Czechia",
-        "logo": "https://flagcdn.com/w40/cz.png"
-      },
-      "away": {
-        "name": "South Africa",
-        "logo": "https://flagcdn.com/w40/za.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-18T21:45:00+05:45",
-      "end_time": "2026-06-18T23:45:00+05:45",
-      "display_time": "09:45 PM",
-      "venue": "TBD",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=czevsrsa"
+      "watch": "https://matchapi.pages.dev/cricket?id=nedvsswe"
     }
   }
+
 
 
 

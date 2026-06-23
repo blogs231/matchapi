@@ -1,136 +1,140 @@
 {
   "matches": [
     
+
   {
-    "match_id": "usaaus_2026_groupd",
-    "stream_id": "usavsaus",
-    "title": "USA vs Australia",
+    "match_id": "joralg_2026_groupj",
+    "stream_id": "jorvsalg",
+    "title": "Jordan vs Algeria",
     "sport": "soccer",
     "teams": {
       "home": {
-        "name": "USA",
-        "logo": "https://flagcdn.com/w40/us.png"
+        "name": "Jordan",
+        "logo": "https://flagcdn.com/w40/jo.png",
+        "score": 1
       },
       "away": {
-        "name": "Australia",
-        "logo": "https://flagcdn.com/w40/au.png"
+        "name": "Algeria",
+        "logo": "https://flagcdn.com/w40/dz.png",
+        "score": 2
       }
     },
     "match_info": {
-      "start_time": "2026-06-19T00:45:00+05:45",
-      "end_time": "2026-06-19T02:45:00+05:45",
-      "display_time": "12:45 AM",
+      "start_time": "2026-06-20T00:45:00+05:45",
+      "end_time": "2026-06-20T02:45:00+05:45",
+      "display_time": "FT",
       "venue": "TBD",
-      "status": "vs"
+      "status": "FT"
     },
     "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=usavsaus"
+      "watch": "https://matchapi.pages.dev/cricket?id=jorvsalg"
     }
   },
   {
-    "match_id": "sctmar_2026_groupc",
-    "stream_id": "sctvsmar",
-    "title": "Scotland vs Morocco",
+    "match_id": "poruzb_2026_groupk",
+    "stream_id": "porvsuzb",
+    "title": "Portugal vs Uzbekistan",
     "sport": "soccer",
     "teams": {
       "home": {
-        "name": "Scotland",
-        "logo": "https://flagcdn.com/w40/gb-sct.png"
+        "name": "Portugal",
+        "logo": "https://flagcdn.com/w40/pt.png"
       },
       "away": {
-        "name": "Morocco",
-        "logo": "https://flagcdn.com/w40/ma.png"
+        "name": "Uzbekistan",
+        "logo": "https://flagcdn.com/w40/uz.png"
       }
     },
     "match_info": {
-      "start_time": "2026-06-19T03:45:00+05:45",
-      "end_time": "2026-06-19T05:45:00+05:45",
-      "display_time": "03:45 AM",
-      "venue": "TBD",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=sctvsmar"
-    }
-  },
-  {
-    "match_id": "brahti_2026_groupc",
-    "stream_id": "bravshti",
-    "title": "Brazil vs Haiti",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Brazil",
-        "logo": "https://flagcdn.com/w40/br.png"
-      },
-      "away": {
-        "name": "Haiti",
-        "logo": "https://flagcdn.com/w40/ht.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-19T06:15:00+05:45",
-      "end_time": "2026-06-19T08:15:00+05:45",
-      "display_time": "06:15 AM",
-      "venue": "TBD",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=bravshti"
-    }
-  },
-  {
-    "match_id": "turpar_2026_groupd",
-    "stream_id": "turvspar",
-    "title": "Türkiye vs Paraguay",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Türkiye",
-        "logo": "https://flagcdn.com/w40/tr.png"
-      },
-      "away": {
-        "name": "Paraguay",
-        "logo": "https://flagcdn.com/w40/py.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-19T08:45:00+05:45",
-      "end_time": "2026-06-19T10:45:00+05:45",
-      "display_time": "08:45 AM",
-      "venue": "TBD",
-      "status": "vs"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=turvspar"
-    }
-  },
-  {
-    "match_id": "nedswe_2026_groupf",
-    "stream_id": "nedvsswe",
-    "title": "Netherlands vs Sweden",
-    "sport": "soccer",
-    "teams": {
-      "home": {
-        "name": "Netherlands",
-        "logo": "https://flagcdn.com/w40/nl.png"
-      },
-      "away": {
-        "name": "Sweden",
-        "logo": "https://flagcdn.com/w40/se.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-06-19T22:45:00+05:45",
-      "end_time": "2026-06-20T00:45:00+05:45",
+      "start_time": "2026-06-20T22:45:00+05:45",
+      "end_time": "2026-06-21T00:45:00+05:45",
       "display_time": "10:45 PM",
       "venue": "TBD",
       "status": "vs"
     },
     "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=nedvsswe"
+      "watch": "https://matchapi.pages.dev/cricket?id=porvsuzb"
+    }
+  },
+  {
+    "match_id": "enggha_2026_groupl",
+    "stream_id": "engvsgha",
+    "title": "England vs Ghana",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "England",
+        "logo": "https://flagcdn.com/w40/gb-eng.png"
+      },
+      "away": {
+        "name": "Ghana",
+        "logo": "https://flagcdn.com/w40/gh.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-21T01:45:00+05:45",
+      "end_time": "2026-06-21T03:45:00+05:45",
+      "display_time": "01:45 AM",
+      "venue": "TBD",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=engvsgha"
+    }
+  },
+  {
+    "match_id": "pancro_2026_groupl",
+    "stream_id": "panvscro",
+    "title": "Panama vs Croatia",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Panama",
+        "logo": "https://flagcdn.com/w40/pa.png"
+      },
+      "away": {
+        "name": "Croatia",
+        "logo": "https://flagcdn.com/w40/hr.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-21T04:45:00+05:45",
+      "end_time": "2026-06-21T06:45:00+05:45",
+      "display_time": "04:45 AM",
+      "venue": "TBD",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=panvscro"
+    }
+  },
+  {
+    "match_id": "colcod_2026_groupk",
+    "stream_id": "colvscod",
+    "title": "Colombia vs DR Congo",
+    "sport": "soccer",
+    "teams": {
+      "home": {
+        "name": "Colombia",
+        "logo": "https://flagcdn.com/w40/co.png"
+      },
+      "away": {
+        "name": "DR Congo",
+        "logo": "https://flagcdn.com/w40/cd.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-06-21T07:45:00+05:45",
+      "end_time": "2026-06-21T09:45:00+05:45",
+      "display_time": "07:45 AM",
+      "venue": "TBD",
+      "status": "vs"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=colvscod"
     }
   }
+
 
 
 

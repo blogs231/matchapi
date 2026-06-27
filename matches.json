@@ -1,61 +1,9 @@
 {
   "matches": [
     {
-      "match_id": "poruzb_2026_groupk",
-      "stream_id": "porvsuzb",
-      "title": "Portugal vs Uzbekistan",
-      "sport": "soccer",
-      "teams": {
-        "home": {
-          "name": "Portugal",
-          "logo": "https://flagcdn.com/w40/pt.png"
-        },
-        "away": {
-          "name": "Uzbekistan",
-          "logo": "https://flagcdn.com/w40/uz.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-06-23T22:45:00+05:45",
-        "end_time": "2026-06-24T00:45:00+05:45",
-        "display_time": "10:45 PM",
-        "venue": "Houston Stadium",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=porvsuzb"
-      }
-    },
-    {
-      "match_id": "enggha_2026_groupl",
-      "stream_id": "engvsgha",
-      "title": "England vs Ghana",
-      "sport": "soccer",
-      "teams": {
-        "home": {
-          "name": "England",
-          "logo": "https://flagcdn.com/w40/gb-eng.png"
-        },
-        "away": {
-          "name": "Ghana",
-          "logo": "https://flagcdn.com/w40/gh.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-06-24T01:45:00+05:45",
-        "end_time": "2026-06-24T03:45:00+05:45",
-        "display_time": "01:45 AM",
-        "venue": "Boston Stadium",
-        "status": "vs"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=engvsgha"
-      }
-    },
-    {
-      "match_id": "pancro_2026_groupl",
-      "stream_id": "panvscro",
-      "title": "Panama vs Croatia",
+      "match_id": "paneng_2026_groupl",
+      "stream_id": "panvseng",
+      "title": "Panama vs England",
       "sport": "soccer",
       "teams": {
         "home": {
@@ -63,25 +11,51 @@
           "logo": "https://flagcdn.com/w40/pa.png"
         },
         "away": {
-          "name": "Croatia",
-          "logo": "https://flagcdn.com/w40/hr.png"
+          "name": "England",
+          "logo": "https://flagcdn.com/w40/gb-eng.png"
         }
       },
       "match_info": {
-        "start_time": "2026-06-24T04:45:00+05:45",
-        "end_time": "2026-06-24T06:45:00+05:45",
-        "display_time": "04:45 AM",
-        "venue": "Toronto Stadium",
+        "start_time": "2026-06-28T02:45:00+05:45",
+        "end_time": "2026-06-28T04:45:00+05:45",
+        "display_time": "02:45 AM",
+        "venue": "TBD",
         "status": "vs"
       },
       "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=panvscro"
+        "watch": "https://matchapi.pages.dev/cricket?id=panvseng"
       }
     },
     {
-      "match_id": "colcod_2026_groupk",
-      "stream_id": "colvscod",
-      "title": "Colombia vs DR Congo",
+      "match_id": "crogha_2026_groupl",
+      "stream_id": "crovsgha",
+      "title": "Croatia vs Ghana",
+      "sport": "soccer",
+      "teams": {
+        "home": {
+          "name": "Croatia",
+          "logo": "https://flagcdn.com/w40/hr.png"
+        },
+        "away": {
+          "name": "Ghana",
+          "logo": "https://flagcdn.com/w40/gh.png"
+        }
+      },
+      "match_info": {
+        "start_time": "2026-06-28T02:45:00+05:45",
+        "end_time": "2026-06-28T04:45:00+05:45",
+        "display_time": "02:45 AM",
+        "venue": "TBD",
+        "status": "vs"
+      },
+      "links": {
+        "watch": "https://matchapi.pages.dev/cricket?id=crovsgha"
+      }
+    },
+    {
+      "match_id": "colpor_2026_groupk",
+      "stream_id": "colvspor",
+      "title": "Colombia vs Portugal",
       "sport": "soccer",
       "teams": {
         "home": {
@@ -89,19 +63,97 @@
           "logo": "https://flagcdn.com/w40/co.png"
         },
         "away": {
-          "name": "DR Congo",
-          "logo": "https://flagcdn.com/w40/cd.png"
+          "name": "Portugal",
+          "logo": "https://flagcdn.com/w40/pt.png"
         }
       },
       "match_info": {
-        "start_time": "2026-06-24T07:45:00+05:45",
-        "end_time": "2026-06-24T09:45:00+05:45",
-        "display_time": "07:45 AM",
-        "venue": "Guadalajara Stadium",
+        "start_time": "2026-06-28T05:15:00+05:45",
+        "end_time": "2026-06-28T07:15:00+05:45",
+        "display_time": "05:15 AM",
+        "venue": "TBD",
         "status": "vs"
       },
       "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=colvscod"
+        "watch": "https://matchapi.pages.dev/cricket?id=colvspor"
+      }
+    },
+    {
+      "match_id": "coduzb_2026_groupk",
+      "stream_id": "codvsuzb",
+      "title": "DR Congo vs Uzbekistan",
+      "sport": "soccer",
+      "teams": {
+        "home": {
+          "name": "DR Congo",
+          "logo": "https://flagcdn.com/w40/cd.png"
+        },
+        "away": {
+          "name": "Uzbekistan",
+          "logo": "https://flagcdn.com/w40/uz.png"
+        }
+      },
+      "match_info": {
+        "start_time": "2026-06-28T05:15:00+05:45",
+        "end_time": "2026-06-28T07:15:00+05:45",
+        "display_time": "05:15 AM",
+        "venue": "TBD",
+        "status": "vs"
+      },
+      "links": {
+        "watch": "https://matchapi.pages.dev/cricket?id=codvsuzb"
+      }
+    },
+    {
+      "match_id": "jorarg_2026_groupj",
+      "stream_id": "jorvsarg",
+      "title": "Jordan vs Argentina",
+      "sport": "soccer",
+      "teams": {
+        "home": {
+          "name": "Jordan",
+          "logo": "https://flagcdn.com/w40/jo.png"
+        },
+        "away": {
+          "name": "Argentina",
+          "logo": "https://flagcdn.com/w40/ar.png"
+        }
+      },
+      "match_info": {
+        "start_time": "2026-06-28T07:45:00+05:45",
+        "end_time": "2026-06-28T09:45:00+05:45",
+        "display_time": "07:45 AM",
+        "venue": "TBD",
+        "status": "vs"
+      },
+      "links": {
+        "watch": "https://matchapi.pages.dev/cricket?id=jorvsarg"
+      }
+    },
+    {
+      "match_id": "algaut_2026_groupj",
+      "stream_id": "algvsaut",
+      "title": "Algeria vs Austria",
+      "sport": "soccer",
+      "teams": {
+        "home": {
+          "name": "Algeria",
+          "logo": "https://flagcdn.com/w40/dz.png"
+        },
+        "away": {
+          "name": "Austria",
+          "logo": "https://flagcdn.com/w40/at.png"
+        }
+      },
+      "match_info": {
+        "start_time": "2026-06-28T07:45:00+05:45",
+        "end_time": "2026-06-28T09:45:00+05:45",
+        "display_time": "07:45 AM",
+        "venue": "TBD",
+        "status": "vs"
+      },
+      "links": {
+        "watch": "https://matchapi.pages.dev/cricket?id=algvsaut"
       }
     }
   ]

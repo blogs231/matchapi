@@ -1,58 +1,112 @@
 {
   "matches": [
-    {
-      "match_id": "argegy_2026_r16",
-      "stream_id": "argvsegy",
-      "title": "Argentina vs Egypt",
-      "sport": "soccer",
-      "teams": {
-        "home": {
-          "name": "Argentina",
-          "logo": "https://flagcdn.com/w40/ar.png"
-        },
-        "away": {
-          "name": "Egypt",
-          "logo": "https://flagcdn.com/w40/eg.png"
-        }
+      {
+    "match_id": "nepnam_2026_odi116",
+    "stream_id": "nepvsnam",
+    "title": "Nepal vs Namibia",
+    "sport": "cricket",
+    "teams": {
+      "home": {
+        "name": "Nepal",
+        "logo": "https://flagcdn.com/w40/np.png"
       },
-      "match_info": {
-        "start_time": "2026-07-07T21:45:00+05:45",
-        "end_time": "2026-07-07T23:45:00+05:45",
-        "display_time": "09:45 PM",
-        "venue": "TBD",
-        "status": "vs",
-        "round": "Round of 16"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=argvsegy"
+      "away": {
+        "name": "Namibia",
+        "logo": "https://flagcdn.com/w40/na.png"
       }
     },
-    {
-      "match_id": "suicol_2026_r16",
-      "stream_id": "suivscol",
-      "title": "Switzerland vs Colombia",
-      "sport": "soccer",
-      "teams": {
-        "home": {
-          "name": "Switzerland",
-          "logo": "https://flagcdn.com/w40/ch.png"
-        },
-        "away": {
-          "name": "Colombia",
-          "logo": "https://flagcdn.com/w40/co.png"
-        }
-      },
-      "match_info": {
-        "start_time": "2026-07-08T01:45:00+05:45",
-        "end_time": "2026-07-08T03:45:00+05:45",
-        "display_time": "01:45 AM",
-        "venue": "TBD",
-        "status": "vs",
-        "round": "Round of 16"
-      },
-      "links": {
-        "watch": "https://matchapi.pages.dev/cricket?id=suivscol"
-      }
+    "match_info": {
+      "start_time": "2026-07-21T14:45:00+05:45",
+      "end_time": "2026-07-21T22:45:00+05:45",
+      "display_time": "02:45 PM",
+      "venue": "TBD",
+      "status": "vs",
+      "round": "ICC CWC League 2 - ODI 116"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=nepvsnam"
     }
+  },
+  {
+    "match_id": "nednep_2026_odi117",
+    "stream_id": "nedvsnep",
+    "title": "Netherlands vs Nepal",
+    "sport": "cricket",
+    "teams": {
+      "home": {
+        "name": "Netherlands",
+        "logo": "https://flagcdn.com/w40/nl.png"
+      },
+      "away": {
+        "name": "Nepal",
+        "logo": "https://flagcdn.com/w40/np.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-07-23T14:45:00+05:45",
+      "end_time": "2026-07-23T22:45:00+05:45",
+      "display_time": "02:45 PM",
+      "venue": "TBD",
+      "status": "vs",
+      "round": "ICC CWC League 2 - ODI 117"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=nedvsnep"
+    }
+  },
+  {
+    "match_id": "namnep_2026_odi119",
+    "stream_id": "namvsnep",
+    "title": "Namibia vs Nepal",
+    "sport": "cricket",
+    "teams": {
+      "home": {
+        "name": "Namibia",
+        "logo": "https://flagcdn.com/w40/na.png"
+      },
+      "away": {
+        "name": "Nepal",
+        "logo": "https://flagcdn.com/w40/np.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-07-27T14:45:00+05:45",
+      "end_time": "2026-07-27T22:45:00+05:45",
+      "display_time": "02:45 PM",
+      "venue": "TBD",
+      "status": "vs",
+      "round": "ICC CWC League 2 - ODI 119"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=namvsnep"
+    }
+  },
+  {
+    "match_id": "nepned_2026_odi120",
+    "stream_id": "nepvsned",
+    "title": "Nepal vs Netherlands",
+    "sport": "cricket",
+    "teams": {
+      "home": {
+        "name": "Nepal",
+        "logo": "https://flagcdn.com/w40/np.png"
+      },
+      "away": {
+        "name": "Netherlands",
+        "logo": "https://flagcdn.com/w40/nl.png"
+      }
+    },
+    "match_info": {
+      "start_time": "2026-07-29T14:45:00+05:45",
+      "end_time": "2026-07-29T22:45:00+05:45",
+      "display_time": "02:45 PM",
+      "venue": "TBD",
+      "status": "vs",
+      "round": "ICC CWC League 2 - ODI 120"
+    },
+    "links": {
+      "watch": "https://matchapi.pages.dev/cricket?id=nepvsned"
+    }
+  }
   ]
 }

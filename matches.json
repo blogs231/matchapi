@@ -1,32 +1,5 @@
 {
   "matches": [
-      {
-    "match_id": "nepnam_2026_odi116",
-    "stream_id": "nepvsnam",
-    "title": "Nepal vs Namibia",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Nepal",
-        "logo": "https://flagcdn.com/w40/np.png"
-      },
-      "away": {
-        "name": "Namibia",
-        "logo": "https://flagcdn.com/w40/na.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-07-21T14:45:00+05:45",
-      "end_time": "2026-07-21T22:45:00+05:45",
-      "display_time": "02:45 PM",
-      "venue": "TBD",
-      "status": "vs",
-      "round": "ICC CWC League 2 - ODI 116"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=nepvsnam"
-    }
-  },
   {
     "match_id": "nednep_2026_odi117",
     "stream_id": "nedvsnep",

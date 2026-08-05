@@ -1,85 +1,88 @@
 {
   "matches": [
+  
   {
-    "match_id": "nednep_2026_odi117",
-    "stream_id": "nedvsnep",
-    "title": "Netherlands vs Nepal",
+    "match_id": "wi_pak_2026_test02",
+    "stream_id": "wivspak",
+    "title": "West Indies vs Pakistan",
     "sport": "cricket",
     "teams": {
       "home": {
-        "name": "Netherlands",
-        "logo": "https://flagcdn.com/w40/nl.png"
+        "name": "West Indies",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cricket_West_Indies_flag_2017.svg"
       },
       "away": {
-        "name": "Nepal",
-        "logo": "https://flagcdn.com/w40/np.png"
+        "name": "Pakistan",
+        "logo": "https://flagcdn.com/w320/pk.png"
       }
     },
     "match_info": {
-      "start_time": "2026-07-23T14:45:00+05:45",
-      "end_time": "2026-07-23T22:45:00+05:45",
-      "display_time": "02:45 PM",
-      "venue": "TBD",
-      "status": "vs",
-      "round": "ICC CWC League 2 - ODI 117"
+      "start_time": "2026-08-05T19:30:00+05:45",
+      "end_time": "2026-08-06T03:30:00+05:45",
+      "display_time": "07:30 PM",
+      "venue": "Sabina Park, Kingston",
+      "status": "live",
+      "round": "Pakistan tour of West Indies - 2nd Test"
     },
     "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=nedvsnep"
+      "watch": "https://matchapi.pages.dev/cricket?id=wivspak"
     }
   },
   {
-    "match_id": "namnep_2026_odi119",
-    "stream_id": "namvsnep",
-    "title": "Namibia vs Nepal",
+    "match_id": "ire_afg_2026_odi01",
+    "stream_id": "irevsafg",
+    "title": "Ireland vs Afghanistan",
     "sport": "cricket",
     "teams": {
       "home": {
-        "name": "Namibia",
-        "logo": "https://flagcdn.com/w40/na.png"
+        "name": "Ireland",
+        "logo": "https://flagcdn.com/w320/ie.png"
       },
       "away": {
-        "name": "Nepal",
-        "logo": "https://flagcdn.com/w40/np.png"
+        "name": "Afghanistan",
+        "logo": "https://flagcdn.com/w320/af.png"
       }
     },
     "match_info": {
-      "start_time": "2026-07-27T14:45:00+05:45",
-      "end_time": "2026-07-27T22:45:00+05:45",
-      "display_time": "02:45 PM",
-      "venue": "TBD",
+      "start_time": "2026-08-05T15:15:00+05:45",
+      "end_time": "2026-08-05T23:15:00+05:45",
+      "display_time": "03:15 PM",
+      "venue": "Stormont, Belfast",
       "status": "vs",
-      "round": "ICC CWC League 2 - ODI 119"
+      "round": "Afghanistan tour of Ireland - 1st ODI"
     },
     "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=namvsnep"
+      "watch": "https://matchapi.pages.dev/cricket?id=irevsafg"
     }
   },
   {
-    "match_id": "nepned_2026_odi120",
-    "stream_id": "nepvsned",
-    "title": "Nepal vs Netherlands",
+    "match_id": "uae_can_2026_odi118",
+    "stream_id": "uaevscan",
+    "title": "United Arab Emirates vs Canada",
     "sport": "cricket",
     "teams": {
       "home": {
-        "name": "Nepal",
-        "logo": "https://flagcdn.com/w40/np.png"
+        "name": "United Arab Emirates",
+        "logo": "https://flagcdn.com/w320/ae.png"
       },
       "away": {
-        "name": "Netherlands",
-        "logo": "https://flagcdn.com/w40/nl.png"
+        "name": "Canada",
+        "logo": "https://flagcdn.com/w320/ca.png"
       }
     },
     "match_info": {
-      "start_time": "2026-07-29T14:45:00+05:45",
-      "end_time": "2026-07-29T22:45:00+05:45",
-      "display_time": "02:45 PM",
+      "start_time": "2026-08-05T11:45:00+05:45",
+      "end_time": "2026-08-05T19:45:00+05:45",
+      "display_time": "11:45 AM",
       "venue": "TBD",
       "status": "vs",
-      "round": "ICC CWC League 2 - ODI 120"
+      "round": "ICC CWC League 2 - ODI 118"
     },
     "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=nepvsned"
+      "watch": "https://matchapi.pages.dev/cricket?id=uaevscan"
     }
   }
+
+  
   ]
 }

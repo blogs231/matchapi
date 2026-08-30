@@ -1,37 +1,75 @@
 {
-  "uaevscan": {
-    "smooth1": "https://otieu.com/4/8696466",
-    "smooth2": "https://blogs231.github.io/ads/?url=https://fuck-you.kasin-tv.com/fc/play.php?id=4246704",
-    "smooth3": "https://otieu.com/4/8696466",
-    "hd1": "https://blogs231.github.io/ads/?url=https://fuck-you.kasin-tv.com/fc/play.php?id=4246704",
-    "hd2": "https://otieu.com/4/8696466",
-    "hd3": "https://blogs231.github.io/ads/?url=https://fuck-you.kasin-tv.com/fc/play.php?id=4246704",
-    "fhd1": "https://otieu.com/4/8696466",
-    "fhd2": "https://blogs231.github.io/ads/?url=https://fuck-you.kasin-tv.com/fc/play.php?id=4246704",
-    "fhd3": "https://otieu.com/4/8696466"
+{
+  "nepvscan": {
+    "smooth1": "https://matchapi.pages.dev/cricket?id=nepvscan",
+    "smooth2": "https://matchapi.pages.dev/cricket?id=nepvscan",
+    "smooth3": "https://matchapi.pages.dev/cricket?id=nepvscan",
+    "hd1": "https://matchapi.pages.dev/cricket?id=nepvscan",
+    "hd2": "https://matchapi.pages.dev/cricket?id=nepvscan",
+    "hd3": "https://matchapi.pages.dev/cricket?id=nepvscan",
+    "fhd1": "https://matchapi.pages.dev/cricket?id=nepvscan",
+    "fhd2": "https://matchapi.pages.dev/cricket?id=nepvscan",
+    "fhd3": "https://matchapi.pages.dev/cricket?id=nepvscan"
   },
 
-  "irevsafg": {
-    "smooth1": "https://otieu.com/4/8696466",
-    "smooth2": "https://blogs231.github.io/ads/?url=",
-    "smooth3": "https://otieu.com/4/8696466",
-    "hd1": "https://blogs231.github.io/ads/?url=",
-    "hd2": "https://otieu.com/4/8696466",
-    "hd3": "https://blogs231.github.io/ads/?url=",
-    "fhd1": "https://otieu.com/4/8696466",
-    "fhd2": "https://blogs231.github.io/ads/?url=",
-    "fhd3": "https://otieu.com/4/8696466"
+  "nepvsomn": {
+    "smooth1": "https://matchapi.pages.dev/cricket?id=nepvsomn",
+    "smooth2": "https://matchapi.pages.dev/cricket?id=nepvsomn",
+    "smooth3": "https://matchapi.pages.dev/cricket?id=nepvsomn",
+    "hd1": "https://matchapi.pages.dev/cricket?id=nepvsomn",
+    "hd2": "https://matchapi.pages.dev/cricket?id=nepvsomn",
+    "hd3": "https://matchapi.pages.dev/cricket?id=nepvsomn",
+    "fhd1": "https://matchapi.pages.dev/cricket?id=nepvsomn",
+    "fhd2": "https://matchapi.pages.dev/cricket?id=nepvsomn",
+    "fhd3": "https://matchapi.pages.dev/cricket?id=nepvsomn"
   },
 
-  "wivspak": {
-    "smooth1": "https://otieu.com/4/8696466",
-    "smooth2": "https://blogs231.github.io/ads/?url=https://jn279.sportvideodata.com/59097884_gTdz0mL0NXaslXYsB3L4gTbhVmc0N3Lx82Lt92YuUWbhdGN0Z2bz5ibkNmY/p9.m3u8",
-    "smooth3": "https://otieu.com/4/8696466",
-    "hd1": "https://blogs231.github.io/ads/?url=https://jn279.sportvideodata.com/59097884_gTdz0mL0NXaslXYsB3L4gTbhVmc0N3Lx82Lt92YuUWbhdGN0Z2bz5ibkNmY/p9.m3u8",
-    "hd2": "https://otieu.com/4/8696466",
-    "hd3": "https://blogs231.github.io/ads/?url=https://jn279.sportvideodata.com/59097884_gTdz0mL0NXaslXYsB3L4gTbhVmc0N3Lx82Lt92YuUWbhdGN0Z2bz5ibkNmY/p9.m3u8",
-    "fhd1": "https://otieu.com/4/8696466",
-    "fhd2": "https://blogs231.github.io/ads/?url=https://jn279.sportvideodata.com/59097884_gTdz0mL0NXaslXYsB3L4gTbhVmc0N3Lx82Lt92YuUWbhdGN0Z2bz5ibkNmY/p9.m3u8",
-    "fhd3": "https://otieu.com/4/8696466"
+  "nepvsbhr": {
+    "smooth1": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
+    "smooth2": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
+    "smooth3": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
+    "hd1": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
+    "hd2": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
+    "hd3": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
+    "fhd1": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
+    "fhd2": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
+    "fhd3": "https://matchapi.pages.dev/cricket?id=nepvsbhr"
+  },
+
+  "nepvsmas": {
+    "smooth1": "https://matchapi.pages.dev/cricket?id=nepvsmas",
+    "smooth2": "https://matchapi.pages.dev/cricket?id=nepvsmas",
+    "smooth3": "https://matchapi.pages.dev/cricket?id=nepvsmas",
+    "hd1": "https://matchapi.pages.dev/cricket?id=nepvsmas",
+    "hd2": "https://matchapi.pages.dev/cricket?id=nepvsmas",
+    "hd3": "https://matchapi.pages.dev/cricket?id=nepvsmas",
+    "fhd1": "https://matchapi.pages.dev/cricket?id=nepvsmas",
+    "fhd2": "https://matchapi.pages.dev/cricket?id=nepvsmas",
+    "fhd3": "https://matchapi.pages.dev/cricket?id=nepvsmas"
+  },
+
+  "nepvssau": {
+    "smooth1": "https://matchapi.pages.dev/cricket?id=nepvssau",
+    "smooth2": "https://matchapi.pages.dev/cricket?id=nepvssau",
+    "smooth3": "https://matchapi.pages.dev/cricket?id=nepvssau",
+    "hd1": "https://matchapi.pages.dev/cricket?id=nepvssau",
+    "hd2": "https://matchapi.pages.dev/cricket?id=nepvssau",
+    "hd3": "https://matchapi.pages.dev/cricket?id=nepvssau",
+    "fhd1": "https://matchapi.pages.dev/cricket?id=nepvssau",
+    "fhd2": "https://matchapi.pages.dev/cricket?id=nepvssau",
+    "fhd3": "https://matchapi.pages.dev/cricket?id=nepvssau"
+  },
+
+  "nepvshkg": {
+    "smooth1": "https://matchapi.pages.dev/cricket?id=nepvshkg",
+    "smooth2": "https://matchapi.pages.dev/cricket?id=nepvshkg",
+    "smooth3": "https://matchapi.pages.dev/cricket?id=nepvshkg",
+    "hd1": "https://matchapi.pages.dev/cricket?id=nepvshkg",
+    "hd2": "https://matchapi.pages.dev/cricket?id=nepvshkg",
+    "hd3": "https://matchapi.pages.dev/cricket?id=nepvshkg",
+    "fhd1": "https://matchapi.pages.dev/cricket?id=nepvshkg",
+    "fhd2": "https://matchapi.pages.dev/cricket?id=nepvshkg",
+    "fhd3": "https://matchapi.pages.dev/cricket?id=nepvshkg"
   }
+
 }

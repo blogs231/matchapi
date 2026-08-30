@@ -1,5 +1,4 @@
 {
-{
   "nepvscan": {
     "smooth1": "https://matchapi.pages.dev/cricket?id=nepvscan",
     "smooth2": "https://matchapi.pages.dev/cricket?id=nepvscan",
@@ -11,7 +10,6 @@
     "fhd2": "https://matchapi.pages.dev/cricket?id=nepvscan",
     "fhd3": "https://matchapi.pages.dev/cricket?id=nepvscan"
   },
-
   "nepvsomn": {
     "smooth1": "https://matchapi.pages.dev/cricket?id=nepvsomn",
     "smooth2": "https://matchapi.pages.dev/cricket?id=nepvsomn",
@@ -23,7 +21,6 @@
     "fhd2": "https://matchapi.pages.dev/cricket?id=nepvsomn",
     "fhd3": "https://matchapi.pages.dev/cricket?id=nepvsomn"
   },
-
   "nepvsbhr": {
     "smooth1": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
     "smooth2": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
@@ -35,7 +32,6 @@
     "fhd2": "https://matchapi.pages.dev/cricket?id=nepvsbhr",
     "fhd3": "https://matchapi.pages.dev/cricket?id=nepvsbhr"
   },
-
   "nepvsmas": {
     "smooth1": "https://matchapi.pages.dev/cricket?id=nepvsmas",
     "smooth2": "https://matchapi.pages.dev/cricket?id=nepvsmas",
@@ -47,7 +43,6 @@
     "fhd2": "https://matchapi.pages.dev/cricket?id=nepvsmas",
     "fhd3": "https://matchapi.pages.dev/cricket?id=nepvsmas"
   },
-
   "nepvssau": {
     "smooth1": "https://matchapi.pages.dev/cricket?id=nepvssau",
     "smooth2": "https://matchapi.pages.dev/cricket?id=nepvssau",
@@ -59,7 +54,6 @@
     "fhd2": "https://matchapi.pages.dev/cricket?id=nepvssau",
     "fhd3": "https://matchapi.pages.dev/cricket?id=nepvssau"
   },
-
   "nepvshkg": {
     "smooth1": "https://matchapi.pages.dev/cricket?id=nepvshkg",
     "smooth2": "https://matchapi.pages.dev/cricket?id=nepvshkg",
@@ -71,5 +65,4 @@
     "fhd2": "https://matchapi.pages.dev/cricket?id=nepvshkg",
     "fhd3": "https://matchapi.pages.dev/cricket?id=nepvshkg"
   }
-
 }

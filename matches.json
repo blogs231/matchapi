@@ -1,56 +1,5 @@
 {
   "matches": [
-
-  {
-    "match_id": "nep_bhr_2026_t20_01",
-    "stream_id": "nepvsbhr",
-    "title": "Nepal vs Bahrain",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Nepal",
-        "logo": "https://flagcdn.com/w320/np.png"
-      },
-      "away": {
-        "name": "Bahrain",
-        "logo": "https://flagcdn.com/w320/bh.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-08-31T07:15:00+05:45",
-      "display_time": "07:15 AM",
-      "status": "vs",
-      "round": "Asia Cup 2026"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=nepvsbhr"
-    }
-  },
-  {
-    "match_id": "nep_mas_2026_t20_02",
-    "stream_id": "nepvsmas",
-    "title": "Nepal vs Malaysia",
-    "sport": "cricket",
-    "teams": {
-      "home": {
-        "name": "Nepal",
-        "logo": "https://flagcdn.com/w320/np.png"
-      },
-      "away": {
-        "name": "Malaysia",
-        "logo": "https://flagcdn.com/w320/my.png"
-      }
-    },
-    "match_info": {
-      "start_time": "2026-09-03T07:15:00+05:45",
-      "display_time": "07:15 AM",
-      "status": "vs",
-      "round": "Asia Cup 2026"
-    },
-    "links": {
-      "watch": "https://matchapi.pages.dev/cricket?id=nepvsmas"
-    }
-  },
   {
     "match_id": "nep_sau_2026_t20_03",
     "stream_id": "nepvssau",

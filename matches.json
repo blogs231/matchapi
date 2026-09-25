@@ -29,34 +29,6 @@
   }
 },
     
-
-    
-  {
-  "match_id": "nep_uae_2026_final",
-  "stream_id": "nepvsuae",
-  "title": "Nepal vs United Arab Emirates",
-  "sport": "cricket",
-  "teams": {
-    "home": {
-      "name": "Nepal",
-      "logo": "https://flagcdn.com/w320/np.png"
-    },
-    "away": {
-      "name": "United Arab Emirates",
-      "logo": "https://flagcdn.com/w320/ae.png"
-    }
-  },
-  "match_info": {
-    "start_time": "2026-09-12T07:15:00+05:45",
-    "end_time": "2026-09-12T15:15:00+05:45",
-    "display_time": "07:15 AM",
-    "status": "vs",
-    "round": "ACC Men's Premier Cup 2026 Final"
-  },
-  "links": {
-    "watch": "https://matchapi.pages.dev/cricket?id=nepvsuae"
-  }
-},
   
   {
     "match_id": "nep_can_2026_odi01",

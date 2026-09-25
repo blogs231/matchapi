@@ -2,7 +2,32 @@
   
   "matches": [
     
-
+{
+  "match_id": "nep_jpn_2026_t20_02",
+  "stream_id": "nepvsjpn",
+  "title": "Nepal vs Japan",
+  "sport": "cricket",
+  "teams": {
+    "home": {
+      "name": "Nepal",
+      "logo": "https://flagcdn.com/w320/np.png"
+    },
+    "away": {
+      "name": "Japan",
+      "logo": "https://flagcdn.com/w320/jp.png"
+    }
+  },
+  "match_info": {
+    "start_time": "2026-09-26T10:45:00+05:45",
+    "end_time": "2026-09-26T14:00:00+05:45",
+    "display_time": "10:45 AM",
+    "status": "vs",
+    "round": "Asian Games 2026 • Group A"
+  },
+  "links": {
+    "watch": "https://matchapi.pages.dev/cricket?id=nepvsjpn"
+  }
+},
     
   
   {
